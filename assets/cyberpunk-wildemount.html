@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyberpunk Wildemount — Neon Atlas</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap');
+
+  :root {
+    --neon-cyan: #00f5ff;
+    --neon-magenta: #ff006e;
+    --neon-yellow: #ffd60a;
+    --neon-green: #39ff14;
+    --neon-orange: #ff6b00;
+    --neon-purple: #bc13fe;
+    --dark-bg: #020812;
+    --grid-color: rgba(0,245,255,0.07);
+    --map-bg: #060e1a;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--dark-bg);
+    font-family: 'Share Tech Mono', monospace;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(2,8,18,0.98) 0%, rgba(2,8,18,0.0) 100%);
+  }
+  .header-title {
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 20px var(--neon-cyan), 0 0 40px rgba(0,245,255,0.3);
+    letter-spacing: 0.2em;
+  }
+  .header-sub {
+    font-size: 0.6rem;
+    color: rgba(0,245,255,0.5);
+    letter-spacing: 0.15em;
+    margin-top: 2px;
+  }
+  .header-right {
+    font-size: 0.6rem;
+    color: rgba(0,245,255,0.4);
+    text-align: right;
+    line-height: 1.8;
+  }
+  .blink { animation: blink 1.4s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .map-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: grab;
+  }
+  .map-container:active { cursor: grabbing; }
+
+  .map-world {
+    position: absolute;
+    width: 1400px;
+    height: 900px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transform-origin: center center;
+    transition: transform 0.1s ease;
+  }
+
+  /* SVG Map */
+  svg.map-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+  }
+
+  /* Scanline overlay */
+  .scanlines {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.08) 2px,
+      rgba(0,0,0,0.08) 4px
+    );
+    pointer-events: none;
+    z-index: 50;
+  }
+
+  /* Vignette */
+  .vignette {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(2,8,18,0.85) 100%);
+    pointer-events: none;
+    z-index: 49;
+  }
+
+  /* Tooltip */
+  .tooltip {
+    position: fixed;
+    background: rgba(2,8,18,0.95);
+    border: 1px solid var(--neon-cyan);
+    box-shadow: 0 0 20px rgba(0,245,255,0.3), inset 0 0 20px rgba(0,245,255,0.03);
+    padding: 10px 14px;
+    max-width: 220px;
+    pointer-events: none;
+    z-index: 200;
+    display: none;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  }
+  .tooltip.visible { display: block; }
+  .tooltip-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--neon-cyan);
+    text-shadow: 0 0 10px var(--neon-cyan);
+    letter-spacing: 0.1em;
+    margin-bottom: 4px;
+  }
+  .tooltip-orig {
+    font-size: 0.5rem;
+    color: rgba(0,245,255,0.4);
+    margin-bottom: 6px;
+    letter-spacing: 0.05em;
+  }
+  .tooltip-desc {
+    font-size: 0.55rem;
+    color: rgba(200,230,255,0.7);
+    line-height: 1.5;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  .tooltip-type {
+    margin-top: 6px;
+    font-size: 0.5rem;
+    padding: 2px 6px;
+    display: inline-block;
+  }
+
+  /* Legend */
+  .legend {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(2,8,18,0.92);
+    border: 1px solid rgba(0,245,255,0.2);
+    padding: 12px 16px;
+    z-index: 100;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  }
+  .legend-title {
+    font-family: 'Orbitron', monospace;
+    font-size: 0.5rem;
+    color: rgba(0,245,255,0.6);
+    letter-spacing: 0.15em;
+    margin-bottom: 8px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+    font-size: 0.5rem;
+    color: rgba(200,230,255,0.6);
+  }
+  .legend-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  /* Compass */
+  .compass {
+    position: fixed;
+    top: 70px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+  }
+
+  /* Zoom controls */
+  .zoom-controls {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 100;
+  }
+  .zoom-btn {
+    width: 32px; height: 32px;
+    background: rgba(2,8,18,0.92);
+    border: 1px solid rgba(0,245,255,0.3);
+    color: var(--neon-cyan);
+    font-family: 'Orbitron', monospace;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  .zoom-btn:hover {
+    background: rgba(0,245,255,0.1);
+    box-shadow: 0 0 12px rgba(0,245,255,0.4);
+  }
+
+  /* Pulse animation for Night City */
+  @keyframes pulse-ring {
+    0% { r: 28; opacity: 0.8; }
+    100% { r: 50; opacity: 0; }
+  }
+  .pulse-ring { animation: pulse-ring 2s ease-out infinite; }
+  @keyframes pulse-ring2 {
+    0% { r: 28; opacity: 0.6; }
+    100% { r: 50; opacity: 0; }
+  }
+  .pulse-ring2 { animation: pulse-ring2 2s ease-out infinite; animation-delay: 0.7s; }
+
+  /* Road dash animation */
+  @keyframes dash-flow {
+    to { stroke-dashoffset: -40; }
+  }
+  .road-animated { animation: dash-flow 2s linear infinite; }
+
+  @keyframes flicker {
+    0%, 95%, 100% { opacity: 1; }
+    96% { opacity: 0.4; }
+    97% { opacity: 1; }
+    98% { opacity: 0.2; }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <div class="header-title">WILDEMOUNT — NEON ATLAS</div>
+    <div class="header-sub">CLASSIFIED CARTOGRAPHIC DATA // ARASAKA CORP // CLEARANCE: ALPHA</div>
+  </div>
+  <div class="header-right">
+    <span class="blink">● LIVE</span> UPLINK<br>
+    SECTOR MAP v4.7.1<br>
+    <span style="color:var(--neon-magenta)">THREAT LVL: CRITICAL</span>
+  </div>
+</div>
+
+<div class="map-container" id="mapContainer">
+  <div class="map-world" id="mapWorld">
+    <svg class="map-svg" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Grid pattern -->
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,245,255,0.06)" stroke-width="0.5"/>
+        </pattern>
+        <pattern id="grid-large" width="200" height="200" patternUnits="userSpaceOnUse">
+          <path d="M 200 0 L 0 0 0 200" fill="none" stroke="rgba(0,245,255,0.12)" stroke-width="1"/>
+        </pattern>
+
+        <!-- Glows -->
+        <filter id="glow-cyan" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="3" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="glow-strong" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="glow-text" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="2" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="mountain-glow">
+          <feGaussianBlur stdDeviation="1.5" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+
+        <!-- Radial for ocean -->
+        <radialGradient id="ocean-grad" cx="50%" cy="50%" r="60%">
+          <stop offset="0%" stop-color="#020e1f"/>
+          <stop offset="100%" stop-color="#010810"/>
+        </radialGradient>
+
+        <!-- Night City glow -->
+        <radialGradient id="city-glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#ff006e" stop-opacity="0.4"/>
+          <stop offset="50%" stop-color="#bc13fe" stop-opacity="0.15"/>
+          <stop offset="100%" stop-color="transparent"/>
+        </radialGradient>
+
+        <!-- Region fills -->
+        <linearGradient id="badlands-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#1a0e00" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="#2d1a00" stop-opacity="0.7"/>
+        </linearGradient>
+        <linearGradient id="tundra-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#001a2d" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="#00102a" stop-opacity="0.7"/>
+        </linearGradient>
+        <linearGradient id="empire-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0a1a00" stop-opacity="0.8"/>
+          <stop offset="100%" stop-color="#0d2200" stop-opacity="0.6"/>
+        </linearGradient>
+        <linearGradient id="blightshore-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#1a0000" stop-opacity="0.9"/>
+          <stop offset="100%" stop-color="#2a0a0a" stop-opacity="0.7"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Ocean background -->
+      <rect width="1400" height="900" fill="url(#ocean-grad)"/>
+      <rect width="1400" height="900" fill="url(#grid)"/>
+      <rect width="1400" height="900" fill="url(#grid-large)"/>
+
+      <!-- Subtle ocean hex pattern -->
+      <g opacity="0.04" stroke="#00f5ff" stroke-width="0.5" fill="none">
+        <path d="M0,450 Q200,400 400,450 Q600,500 800,450 Q1000,400 1200,450 Q1300,475 1400,450"/>
+        <path d="M0,470 Q200,420 400,470 Q600,520 800,470 Q1000,420 1200,470 Q1300,495 1400,470"/>
+        <path d="M0,430 Q200,380 400,430 Q600,480 800,430 Q1000,380 1200,430 Q1300,455 1400,430"/>
+      </g>
+
+      <!-- ==================== CONTINENT LANDMASS ==================== -->
+      <!-- Main landmass - keeping Wildemount shape roughly intact -->
+      <!-- Northern ice region (Eiselcross) -->
+      <polygon points="280,30 620,20 740,80 700,140 560,160 420,150 300,120 240,80"
+        fill="#041220" stroke="#00f5ff" stroke-width="0.8" opacity="0.9"/>
+
+      <!-- Greying Wildlands / upper right tundra -->
+      <polygon points="740,80 960,30 1100,100 1060,200 900,220 780,180 700,140"
+        fill="#04121a" stroke="#00f5ff" stroke-width="0.8" opacity="0.9"/>
+
+      <!-- Main central continent -->
+      <polygon points="200,150 380,130 560,160 740,140 900,220 1050,200 1150,280 1180,400 1150,520 1100,600 980,680 820,700 680,720 540,700 400,660 280,600 180,520 140,400 160,300 200,150"
+        fill="#040d18" stroke="#00f5ff" stroke-width="1" opacity="0.95"/>
+
+      <!-- Menagerie Coast (left protrusion) -->
+      <polygon points="140,360 200,320 200,460 160,500 120,480 100,420"
+        fill="#040d18" stroke="#00f5ff" stroke-width="0.8" opacity="0.9"/>
+
+      <!-- Blightshore (far right) -->
+      <polygon points="1150,300 1280,280 1360,360 1360,520 1280,580 1180,540 1150,440"
+        fill="#140408" stroke="#ff006e" stroke-width="0.8" opacity="0.85"/>
+
+      <!-- Southern islands / archipelago -->
+      <ellipse cx="380" cy="780" rx="60" ry="25" fill="#040d18" stroke="#00f5ff" stroke-width="0.6" opacity="0.8"/>
+      <ellipse cx="280" cy="820" rx="35" ry="15" fill="#040d18" stroke="#00f5ff" stroke-width="0.6" opacity="0.7"/>
+      <ellipse cx="600" cy="800" rx="45" ry="18" fill="#040d18" stroke="#00f5ff" stroke-width="0.6" opacity="0.7"/>
+      <ellipse cx="200" cy="870" rx="28" ry="12" fill="#040d18" stroke="#00f5ff" stroke-width="0.5" opacity="0.6"/>
+      <ellipse cx="1020" cy="760" rx="40" ry="16" fill="#040d18" stroke="#00f5ff" stroke-width="0.6" opacity="0.6"/>
+
+      <!-- ==================== REGION FILLS ==================== -->
+      <!-- Eiselcross / Northern Wastes -->
+      <polygon points="280,35 620,22 735,82 695,138 558,158 418,148 300,118 242,78"
+        fill="url(#tundra-grad)" opacity="0.8"/>
+
+      <!-- Greying Wildlands / Eastern Tundra -->
+      <polygon points="742,82 958,32 1098,102 1058,198 898,218 778,178 702,142"
+        fill="url(#tundra-grad)" opacity="0.7"/>
+
+      <!-- Empire zones (green tinge - corps territory) -->
+      <polygon points="300,200 560,180 700,240 680,380 560,420 400,400 280,360 240,280"
+        fill="url(#empire-grad)" opacity="0.6"/>
+
+      <!-- Xhorhas / Eastern corp zones -->
+      <polygon points="780,230 1000,240 1080,320 1050,450 920,500 780,460 720,360 740,280"
+        fill="url(#badlands-grad)" opacity="0.6"/>
+
+      <!-- Blightshore fill -->
+      <polygon points="1152,302 1278,282 1358,362 1358,518 1278,578 1182,542 1152,442"
+        fill="url(#blightshore-grad)" opacity="0.7"/>
+
+      <!-- ==================== MOUNTAINS ==================== -->
+      <!-- Mountain ranges - stylized as spiky silhouettes with neon outlines -->
+      <!-- Saber Peaks / Western Spine -->
+      <g filter="url(#mountain-glow)" opacity="0.85">
+        <!-- Western mountain spine -->
+        <g stroke="#4af0ff" stroke-width="0.8" fill="#030f1c">
+          <polygon points="228,250 218,290 238,290" opacity="0.9"/>
+          <polygon points="248,245 235,292 261,292" opacity="0.9"/>
+          <polygon points="268,240 252,294 284,294" opacity="0.9"/>
+          <polygon points="290,238 272,296 308,296" opacity="0.9"/>
+          <polygon points="310,242 294,294 326,294" opacity="0.9"/>
+          <polygon points="330,246 314,292 346,292" opacity="0.8"/>
+          <polygon points="268,295 258,320 278,320" opacity="0.8"/>
+          <polygon points="290,298 278,322 302,322" opacity="0.8"/>
+          <polygon points="312,296 300,320 324,320" opacity="0.8"/>
+        </g>
+        <!-- Dunrock Range (central north) -->
+        <g stroke="#4af0ff" stroke-width="0.8" fill="#030f1c">
+          <polygon points="550,180 538,215 562,215" opacity="0.9"/>
+          <polygon points="572,175 558,218 586,218" opacity="0.9"/>
+          <polygon points="594,178 580,215 608,215" opacity="0.85"/>
+          <polygon points="614,182 600,214 628,214" opacity="0.8"/>
+          <polygon points="560,216 550,238 570,238" opacity="0.8"/>
+          <polygon points="580,218 570,240 590,240" opacity="0.8"/>
+          <polygon points="600,216 590,238 610,238" opacity="0.75"/>
+        </g>
+        <!-- Cyrios Mountains (central-western) -->
+        <g stroke="#4af0ff" stroke-width="0.8" fill="#030f1c">
+          <polygon points="360,340 346,382 374,382" opacity="0.9"/>
+          <polygon points="382,334 366,385 398,385" opacity="0.9"/>
+          <polygon points="406,330 388,388 424,388" opacity="0.95"/>
+          <polygon points="430,332 412,386 448,386" opacity="0.9"/>
+          <polygon points="452,336 436,382 468,382" opacity="0.85"/>
+          <polygon points="472,340 458,380 486,380" opacity="0.8"/>
+          <polygon points="390,386 378,410 402,410" opacity="0.8"/>
+          <polygon points="414,388 402,412 426,412" opacity="0.8"/>
+          <polygon points="436,384 424,408 448,408" opacity="0.75"/>
+          <!-- Taller peaks -->
+          <polygon points="406,290 388,342 424,342" opacity="0.95" stroke="#00f5ff" stroke-width="1.2"/>
+          <polygon points="430,286 410,344 450,344" opacity="0.9" stroke="#00f5ff" stroke-width="1"/>
+        </g>
+        <!-- Ashkeeper Peaks (south central) -->
+        <g stroke="#4af0ff" stroke-width="0.7" fill="#030f1c">
+          <polygon points="480,460 468,496 492,496" opacity="0.9"/>
+          <polygon points="500,454 486,498 514,498" opacity="0.9"/>
+          <polygon points="522,452 506,500 538,500" opacity="0.9"/>
+          <polygon points="544,456 528,498 560,498" opacity="0.85"/>
+          <polygon points="510,498 498,520 522,520" opacity="0.8"/>
+          <polygon points="532,500 520,522 544,522" opacity="0.8"/>
+        </g>
+        <!-- Penumbra Range (far east, Blightshore edge) -->
+        <g stroke="#ff4080" stroke-width="0.8" fill="#1a0408">
+          <polygon points="1160,360 1148,400 1172,400" opacity="0.9"/>
+          <polygon points="1182,354 1168,402 1196,402" opacity="0.9"/>
+          <polygon points="1200,350 1184,404 1216,404" opacity="0.9"/>
+          <polygon points="1220,354 1204,402 1236,402" opacity="0.85"/>
+          <polygon points="1188,402 1176,426 1200,426" opacity="0.8"/>
+          <polygon points="1210,404 1198,428 1222,428" opacity="0.8"/>
+        </g>
+        <!-- Icespire Peak area (far north Eiselcross) -->
+        <g stroke="#80e0ff" stroke-width="0.8" fill="#020e18">
+          <polygon points="460,60 446,100 474,100" opacity="0.9"/>
+          <polygon points="482,54 466,102 498,102" opacity="0.9"/>
+          <polygon points="504,58 488,100 520,100" opacity="0.85"/>
+          <polygon points="522,62 508,98 536,98" opacity="0.8"/>
+          <polygon points="470,100 460,122 480,122" opacity="0.75"/>
+          <polygon points="492,102 482,124 502,124" opacity="0.75"/>
+        </g>
+        <!-- Flotket Alps (northeast) -->
+        <g stroke="#60c8ff" stroke-width="0.7" fill="#021018">
+          <polygon points="890,160 878,198 902,198" opacity="0.85"/>
+          <polygon points="910,155 896,200 924,200" opacity="0.85"/>
+          <polygon points="930,158 916,198 944,198" opacity="0.8"/>
+          <polygon points="898,198 888,218 908,218" opacity="0.75"/>
+          <polygon points="918,200 908,220 928,220" opacity="0.75"/>
+        </g>
+      </g>
+
+      <!-- ==================== ROADS/MEGAWAYS ==================== -->
+      <!-- Main Megaways connecting regions - animated neon roads -->
+      <g>
+        <!-- Night City to North (to Eiselcross Gate) -->
+        <path d="M680,440 L660,360 L620,280 L580,200 L540,160" 
+          stroke="rgba(0,245,255,0.15)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M680,440 L660,360 L620,280 L580,200 L540,160" 
+          stroke="#00f5ff" stroke-width="1.5" fill="none" stroke-linecap="round"
+          stroke-dasharray="8,6" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Night City to West (Menagerie Coast) -->
+        <path d="M640,460 L560,460 L460,450 L360,440 L260,430 L180,420"
+          stroke="rgba(0,245,255,0.15)" stroke-width="6" fill="none"/>
+        <path d="M640,460 L560,460 L460,450 L360,440 L260,430 L180,420"
+          stroke="#00f5ff" stroke-width="1.5" fill="none"
+          stroke-dasharray="8,6" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Night City to East (Xhorhas / Blightshore) -->
+        <path d="M740,460 L840,450 L940,440 L1040,420 L1140,400 L1220,380"
+          stroke="rgba(255,0,110,0.15)" stroke-width="6" fill="none"/>
+        <path d="M740,460 L840,450 L940,440 L1040,420 L1140,400 L1220,380"
+          stroke="#ff006e" stroke-width="1.5" fill="none"
+          stroke-dasharray="8,6" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Night City to Southwest -->
+        <path d="M660,500 L580,560 L480,600 L380,620 L280,610"
+          stroke="rgba(0,245,255,0.12)" stroke-width="5" fill="none"/>
+        <path d="M660,500 L580,560 L480,600 L380,620 L280,610"
+          stroke="#00f5ff" stroke-width="1.2" fill="none"
+          stroke-dasharray="6,8" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Night City to Southeast -->
+        <path d="M720,500 L800,560 L880,620 L960,660 L1040,680"
+          stroke="rgba(188,19,254,0.15)" stroke-width="5" fill="none"/>
+        <path d="M720,500 L800,560 L880,620 L960,660 L1040,680"
+          stroke="#bc13fe" stroke-width="1.2" fill="none"
+          stroke-dasharray="6,8" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Cross-route: NW connecting road -->
+        <path d="M300,350 L380,380 L460,410 L540,430 L620,450"
+          stroke="rgba(57,255,20,0.12)" stroke-width="4" fill="none"/>
+        <path d="M300,350 L380,380 L460,410 L540,430 L620,450"
+          stroke="#39ff14" stroke-width="1" fill="none"
+          stroke-dasharray="5,9" class="road-animated" filter="url(#glow-cyan)"/>
+
+        <!-- Northern cross-route -->
+        <path d="M400,200 L500,220 L600,240 L700,260 L800,270 L900,260"
+          stroke="rgba(0,245,255,0.1)" stroke-width="3" fill="none"/>
+        <path d="M400,200 L500,220 L600,240 L700,260 L800,270 L900,260"
+          stroke="#00f5ff" stroke-width="0.8" fill="none"
+          stroke-dasharray="4,10" class="road-animated" opacity="0.6"/>
+
+        <!-- Badlands route east -->
+        <path d="M900,260 L980,300 L1060,340 L1120,380"
+          stroke="rgba(255,107,0,0.15)" stroke-width="4" fill="none"/>
+        <path d="M900,260 L980,300 L1060,340 L1120,380"
+          stroke="#ff6b00" stroke-width="1" fill="none"
+          stroke-dasharray="5,8" class="road-animated"/>
+      </g>
+
+      <!-- ==================== OCEAN LABELS ==================== -->
+      <g filter="url(#glow-text)">
+        <text x="60" y="300" font-family="'Orbitron',monospace" font-size="11" fill="rgba(0,245,255,0.3)" 
+          letter-spacing="4" transform="rotate(-20,60,300)">FRIGID DEEP NET</text>
+        <text x="60" y="750" font-family="'Orbitron',monospace" font-size="13" fill="rgba(0,245,255,0.25)" 
+          letter-spacing="3">LUCIDIAN DARK WEB</text>
+        <text x="1240" y="200" font-family="'Orbitron',monospace" font-size="10" fill="rgba(0,245,255,0.2)" 
+          letter-spacing="2" transform="rotate(15,1240,200)">EMERALD</text>
+        <text x="1245" y="214" font-family="'Orbitron',monospace" font-size="10" fill="rgba(0,245,255,0.2)" 
+          letter-spacing="2" transform="rotate(15,1245,214)">DATA GULCH</text>
+      </g>
+
+      <!-- ==================== REGION LABELS ==================== -->
+      <g filter="url(#glow-text)">
+        <!-- Eiselcross = EISENWALL EXCLUSION ZONE -->
+        <text x="390" y="90" font-family="'Orbitron',monospace" font-size="9" fill="#60c8ff" 
+          letter-spacing="2" text-anchor="middle" opacity="0.9">EISENWALL</text>
+        <text x="390" y="103" font-family="'Orbitron',monospace" font-size="7" fill="rgba(96,200,255,0.6)" 
+          letter-spacing="1" text-anchor="middle">EXCLUSION ZONE</text>
+
+        <!-- Greying Wildlands = GHOST SIGNAL WASTES -->
+        <text x="900" y="90" font-family="'Orbitron',monospace" font-size="9" fill="#60c8ff" 
+          letter-spacing="2" text-anchor="middle" opacity="0.9">GHOST SIGNAL</text>
+        <text x="900" y="103" font-family="'Orbitron',monospace" font-size="7" fill="rgba(96,200,255,0.6)" 
+          letter-spacing="1" text-anchor="middle">WASTES</text>
+
+        <!-- Dwendalian Empire = MILITECH CORPORATE SECTORS -->
+        <text x="450" y="260" font-family="'Orbitron',monospace" font-size="10" fill="#39ff14" 
+          letter-spacing="2" text-anchor="middle" opacity="0.85">MILITECH</text>
+        <text x="450" y="274" font-family="'Orbitron',monospace" font-size="8" fill="rgba(57,255,20,0.6)" 
+          letter-spacing="1" text-anchor="middle">CORPORATE SECTORS</text>
+
+        <!-- Xhorhas = NETRUNNER BADLANDS -->
+        <text x="890" y="340" font-family="'Orbitron',monospace" font-size="10" fill="#ff6b00" 
+          letter-spacing="2" text-anchor="middle" opacity="0.85">NETRUNNER</text>
+        <text x="890" y="354" font-family="'Orbitron',monospace" font-size="8" fill="rgba(255,107,0,0.6)" 
+          letter-spacing="1" text-anchor="middle">BADLANDS</text>
+
+        <!-- Menagerie Coast = THE CHROME COAST -->
+        <text x="155" y="440" font-family="'Orbitron',monospace" font-size="8" fill="#00f5ff" 
+          letter-spacing="1" text-anchor="middle" opacity="0.8" transform="rotate(-90,155,440)">CHROME COAST</text>
+
+        <!-- Blightshore = RELIC DEAD ZONE -->
+        <text x="1260" y="420" font-family="'Orbitron',monospace" font-size="9" fill="#ff004c" 
+          letter-spacing="2" text-anchor="middle" opacity="0.9">RELIC</text>
+        <text x="1260" y="434" font-family="'Orbitron',monospace" font-size="7" fill="rgba(255,0,76,0.7)" 
+          letter-spacing="1" text-anchor="middle">DEAD ZONE</text>
+
+        <!-- Southern sea label -->
+        <text x="560" y="840" font-family="'Orbitron',monospace" font-size="8" fill="rgba(0,245,255,0.2)" 
+          letter-spacing="3" text-anchor="middle">SHATTERED ARCHIPELAGO</text>
+
+        <!-- Zemni Fields area -->
+        <text x="600" y="360" font-family="'Rajdhani',sans-serif" font-size="9" fill="rgba(0,245,255,0.4)" 
+          letter-spacing="2" text-anchor="middle">ZEMNI GRID FIELDS</text>
+
+        <!-- Marrow Valley -->
+        <text x="720" y="440" font-family="'Rajdhani',sans-serif" font-size="9" fill="rgba(255,107,0,0.5)" 
+          letter-spacing="2" text-anchor="middle">MARROW VALLEY</text>
+      </g>
+
+      <!-- ==================== NIGHT CITY ==================== -->
+      <!-- City glow backdrop -->
+      <circle cx="690" cy="470" r="120" fill="url(#city-glow)" opacity="0.8"/>
+
+      <!-- Pulse rings -->
+      <circle cx="690" cy="470" r="28" fill="none" stroke="#ff006e" stroke-width="1.5" opacity="0.8" class="pulse-ring"/>
+      <circle cx="690" cy="470" r="28" fill="none" stroke="#bc13fe" stroke-width="1" opacity="0.6" class="pulse-ring2"/>
+
+      <!-- City block grid -->
+      <g opacity="0.6" filter="url(#glow-strong)">
+        <!-- City blocks -->
+        <rect x="652" y="440" width="12" height="10" fill="#ff006e" opacity="0.8"/>
+        <rect x="668" y="438" width="8" height="14" fill="#bc13fe" opacity="0.8"/>
+        <rect x="680" y="435" width="14" height="18" fill="#ff006e" opacity="0.9"/>
+        <rect x="698" y="440" width="10" height="12" fill="#ff006e" opacity="0.7"/>
+        <rect x="712" y="442" width="8" height="10" fill="#bc13fe" opacity="0.7"/>
+        <rect x="658" y="454" width="10" height="8" fill="#ff4080" opacity="0.7"/>
+        <rect x="672" y="456" width="14" height="12" fill="#ff006e" opacity="0.8"/>
+        <rect x="690" y="458" width="10" height="10" fill="#ff006e" opacity="0.85"/>
+        <rect x="704" y="455" width="12" height="9" fill="#bc13fe" opacity="0.7"/>
+        <rect x="660" y="466" width="8" height="10" fill="#ff4080" opacity="0.6"/>
+        <rect x="672" y="468" width="10" height="10" fill="#ff006e" opacity="0.75"/>
+        <rect x="686" y="470" width="16" height="8" fill="#ff006e" opacity="0.8"/>
+        <rect x="706" y="466" width="10" height="12" fill="#bc13fe" opacity="0.7"/>
+        <!-- Arasaka tower -->
+        <rect x="682" y="420" width="18" height="34" fill="#ff006e" opacity="1"/>
+        <rect x="688" y="410" width="6" height="16" fill="#ff4080" opacity="0.9"/>
+        <line x1="691" y1="408" x2="691" y2="400" stroke="#ff006e" stroke-width="1" opacity="0.9"/>
+        <circle cx="691" cy="399" r="2" fill="#ff006e" opacity="0.8" class="blink"/>
+      </g>
+
+      <!-- City dot marker -->
+      <circle cx="690" cy="470" r="5" fill="#ff006e" filter="url(#glow-strong)"/>
+      <circle cx="690" cy="470" r="3" fill="#fff"/>
+
+      <!-- Night City Label -->
+      <g filter="url(#glow-strong)">
+        <text x="690" y="512" font-family="'Orbitron',monospace" font-weight="900" font-size="16" 
+          fill="#ff006e" letter-spacing="3" text-anchor="middle">NIGHT CITY</text>
+        <text x="690" y="525" font-family="'Share Tech Mono',monospace" font-size="7" 
+          fill="rgba(255,0,110,0.7)" letter-spacing="2" text-anchor="middle">ARASAKA SOVEREIGN TERRITORY</text>
+      </g>
+
+      <!-- ==================== SECONDARY CITIES / SETTLEMENTS ==================== -->
+      <!-- Rexxentrum = Konpeki Prime (major corpo hub) -->
+      <g class="city-node" data-name="KONPEKI PRIME" data-orig="Rexxentrum" 
+         data-desc="Former imperial capital. Now the seat of Militech's continental command. Chrome towers pierce the smog layer. Corp executives never touch the street level." 
+         data-type="CORPO HUB">
+        <circle cx="480" cy="290" r="7" fill="#1a0e00" stroke="#39ff14" stroke-width="1.5" filter="url(#glow-cyan)"/>
+        <circle cx="480" cy="290" r="3" fill="#39ff14"/>
+        <text x="492" y="287" font-family="'Share Tech Mono',monospace" font-size="8" fill="#39ff14" letter-spacing="1">KONPEKI PRIME</text>
+        <text x="492" y="298" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(57,255,20,0.5)" letter-spacing="1">MILITECH HQ</text>
+      </g>
+
+      <!-- Zadash = Syn City -->
+      <g class="city-node" data-name="SYN CITY" data-orig="Zadash"
+         data-desc="The crossroads. No corp controls it outright — which means every corp has a hand in it. Best place to find a fixer, the worst place to make enemies."
+         data-type="FREE CITY">
+        <circle cx="560" cy="420" r="6" fill="#1a0e00" stroke="#ffd60a" stroke-width="1.5" filter="url(#glow-cyan)"/>
+        <circle cx="560" cy="420" r="2.5" fill="#ffd60a"/>
+        <text x="572" y="417" font-family="'Share Tech Mono',monospace" font-size="8" fill="#ffd60a" letter-spacing="1">SYN CITY</text>
+        <text x="572" y="428" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(255,214,10,0.5)" letter-spacing="1">FIXER DISTRICT</text>
+      </g>
+
+      <!-- Rosohna = BLACKWALL BASTION (Xhorhas capital) -->
+      <g class="city-node" data-name="BLACKWALL BASTION" data-orig="Rosohna"
+         data-desc="Deep in the Netrunner Badlands. The Voodoo Boys run this settlement. They've cracked the Blackwall here — strange entities bleed through. Magic users feel watched."
+         data-type="VOODOO BOYS TERRITORY">
+        <circle cx="900" cy="400" r="7" fill="#08000a" stroke="#bc13fe" stroke-width="1.5" filter="url(#glow-cyan)"/>
+        <circle cx="900" cy="400" r="3" fill="#bc13fe"/>
+        <text x="912" y="397" font-family="'Share Tech Mono',monospace" font-size="8" fill="#bc13fe" letter-spacing="1">BLACKWALL BASTION</text>
+        <text x="912" y="408" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(188,19,254,0.5)" letter-spacing="1">VOODOO BOYS</text>
+      </g>
+
+      <!-- Port Damali = CHROME HARBOR -->
+      <g class="city-node" data-name="CHROME HARBOR" data-orig="Port Damali"
+         data-desc="The largest port on the continent. Smugglers, arms dealers, black-market cyberware. If it can be bought, it moves through Chrome Harbor. No questions asked."
+         data-type="FREE PORT">
+        <circle cx="200" cy="500" r="6" fill="#1a0e00" stroke="#00f5ff" stroke-width="1.5" filter="url(#glow-cyan)"/>
+        <circle cx="200" cy="500" r="2.5" fill="#00f5ff"/>
+        <text x="212" y="497" font-family="'Share Tech Mono',monospace" font-size="8" fill="#00f5ff" letter-spacing="1">CHROME HARBOR</text>
+        <text x="212" y="508" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(0,245,255,0.5)" letter-spacing="1">FREE PORT</text>
+      </g>
+
+      <!-- Eiselcross gate -->
+      <g class="city-node" data-name="EISENWALL GATE" data-orig="Balenpost"
+         data-desc="The last outpost before the frozen exclusion zone. Military checkpoint. Strange energy readings have been reported beyond the wall — tech stops working, but magic gets stronger."
+         data-type="MILITARY CHECKPOINT">
+        <circle cx="500" cy="148" r="5" fill="#020e18" stroke="#60c8ff" stroke-width="1.2" filter="url(#glow-cyan)"/>
+        <circle cx="500" cy="148" r="2" fill="#60c8ff"/>
+        <text x="512" y="145" font-family="'Share Tech Mono',monospace" font-size="7" fill="#60c8ff" letter-spacing="1">EISENWALL GATE</text>
+      </g>
+
+      <!-- Blightshore ruins -->
+      <g class="city-node" data-name="LICH SPIRE // [REDACTED]" data-orig="Bazzoxan"
+         data-desc="[ARASAKA CLASSIFIED] Origin point of the temporal anomaly. The Lich's former sanctum has been converted into a data extraction facility. Soul-chip research is conducted here. Do not approach."
+         data-type="⚠ ARASAKA CLASSIFIED">
+        <circle cx="1200" cy="450" r="8" fill="#1a0000" stroke="#ff004c" stroke-width="2" filter="url(#glow-strong)"/>
+        <circle cx="1200" cy="450" r="3.5" fill="#ff004c" class="blink"/>
+        <text x="1215" y="447" font-family="'Share Tech Mono',monospace" font-size="7.5" fill="#ff004c" letter-spacing="1">LICH SPIRE</text>
+        <text x="1215" y="458" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(255,0,76,0.6)" letter-spacing="1">[REDACTED]</text>
+      </g>
+
+      <!-- Trostenwald / Smaller settlement -->
+      <g class="city-node" data-name="STATIC FALLS" data-orig="Trostenwald"
+         data-desc="A flooded delta town where the signal drops. No corpo presence. Smugglers and exiles call it home. The local fixer has a contact in Night City."
+         data-type="SETTLEMENT">
+        <circle cx="340" cy="510" r="4" fill="#040d18" stroke="rgba(0,245,255,0.6)" stroke-width="1"/>
+        <circle cx="340" cy="510" r="1.5" fill="rgba(0,245,255,0.7)"/>
+        <text x="350" y="507" font-family="'Share Tech Mono',monospace" font-size="7" fill="rgba(0,245,255,0.6)" letter-spacing="1">STATIC FALLS</text>
+      </g>
+
+      <!-- Nicodranas = Jailbreak Coast -->
+      <g class="city-node" data-name="JAILBREAK COAST" data-orig="Nicodranas"
+         data-desc="Anarchist free-town on the coast. No corps, no law. The best netrunners who went off-grid are here. They hate Arasaka with passion."
+         data-type="ANARCHIST ZONE">
+        <circle cx="168" cy="560" r="5" fill="#040d18" stroke="#39ff14" stroke-width="1.2" filter="url(#glow-cyan)"/>
+        <circle cx="168" cy="560" r="2" fill="#39ff14"/>
+        <text x="180" y="557" font-family="'Share Tech Mono',monospace" font-size="7" fill="#39ff14" letter-spacing="1">JAILBREAK COAST</text>
+      </g>
+
+      <!-- ==================== SPECIAL LOCATIONS ==================== -->
+      <!-- The Arbor Expanse / massive forest = Signal Dead Zone -->
+      <g opacity="0.5">
+        <ellipse cx="560" cy="580" rx="80" ry="60" fill="rgba(4,30,8,0.7)" stroke="rgba(57,255,20,0.3)" stroke-width="0.8" stroke-dasharray="4,6"/>
+        <text x="560" y="576" font-family="'Share Tech Mono',monospace" font-size="7" fill="rgba(57,255,20,0.5)" 
+          letter-spacing="1" text-anchor="middle">SIGNAL DEAD ZONE</text>
+        <text x="560" y="588" font-family="'Share Tech Mono',monospace" font-size="6" fill="rgba(57,255,20,0.35)" 
+          text-anchor="middle">ARBOR EXPANSE</text>
+      </g>
+
+      <!-- Marrow Valley toxic zone -->
+      <ellipse cx="760" cy="500" rx="55" ry="40" fill="rgba(30,15,0,0.5)" stroke="rgba(255,107,0,0.25)" stroke-width="0.8" stroke-dasharray="3,5" opacity="0.6"/>
+
+      <!-- ==================== COMPASS ROSE ==================== -->
+      <g transform="translate(1330,55)">
+        <circle cx="0" cy="0" r="28" fill="rgba(2,8,18,0.8)" stroke="rgba(0,245,255,0.3)" stroke-width="1"/>
+        <!-- N -->
+        <polygon points="0,-24 -5,-10 5,-10" fill="#00f5ff" opacity="0.9"/>
+        <!-- S -->
+        <polygon points="0,24 -5,10 5,10" fill="rgba(0,245,255,0.4)"/>
+        <!-- E -->
+        <polygon points="24,0 10,-5 10,5" fill="rgba(0,245,255,0.4)"/>
+        <!-- W -->
+        <polygon points="-24,0 -10,-5 -10,5" fill="rgba(0,245,255,0.4)"/>
+        <!-- Center -->
+        <circle cx="0" cy="0" r="3" fill="#00f5ff"/>
+        <text x="0" y="-28" font-family="'Orbitron',monospace" font-size="7" fill="#00f5ff" text-anchor="middle">N</text>
+      </g>
+
+      <!-- ==================== CARTOUCHE / TITLE BOX ==================== -->
+      <g transform="translate(1050,740)">
+        <rect x="0" y="0" width="300" height="100" fill="rgba(2,8,18,0.9)" stroke="rgba(0,245,255,0.3)" stroke-width="1"/>
+        <rect x="4" y="4" width="292" height="92" fill="none" stroke="rgba(0,245,255,0.1)" stroke-width="0.5"/>
+        <line x1="0" y1="30" x2="300" y2="30" stroke="rgba(0,245,255,0.15)" stroke-width="0.5"/>
+        <text x="150" y="20" font-family="'Orbitron',monospace" font-weight="900" font-size="8" 
+          fill="rgba(0,245,255,0.5)" letter-spacing="3" text-anchor="middle">THE CONTINENT OF</text>
+        <text x="150" y="52" font-family="'Orbitron',monospace" font-weight="900" font-size="18" 
+          fill="#00f5ff" letter-spacing="4" text-anchor="middle" filter="url(#glow-text)">WILDEMOUNT</text>
+        <text x="150" y="65" font-family="'Share Tech Mono',monospace" font-size="7" 
+          fill="rgba(255,0,110,0.8)" letter-spacing="3" text-anchor="middle">// NEON EDITION //</text>
+        <text x="150" y="82" font-family="'Share Tech Mono',monospace" font-size="6" 
+          fill="rgba(0,245,255,0.4)" letter-spacing="2" text-anchor="middle">ARASAKA CARTOGRAPHIC DIVISION</text>
+        <text x="150" y="93" font-family="'Share Tech Mono',monospace" font-size="6" 
+          fill="rgba(0,245,255,0.3)" letter-spacing="1" text-anchor="middle">TEMPORAL SURVEY — POST-CONVERGENCE ERA</text>
+      </g>
+
+      <!-- Scale bar -->
+      <g transform="translate(60,860)">
+        <line x1="0" y1="0" x2="100" y2="0" stroke="rgba(0,245,255,0.5)" stroke-width="1.5"/>
+        <line x1="0" y1="-5" x2="0" y2="5" stroke="rgba(0,245,255,0.5)" stroke-width="1"/>
+        <line x1="100" y1="-5" x2="100" y2="5" stroke="rgba(0,245,255,0.5)" stroke-width="1"/>
+        <text x="50" y="-8" font-family="'Share Tech Mono',monospace" font-size="7" fill="rgba(0,245,255,0.5)" text-anchor="middle">500 km</text>
+      </g>
+
+    </svg>
+  </div>
+</div>
+
+<!-- Tooltip -->
+<div class="tooltip" id="tooltip">
+  <div class="tooltip-name" id="tt-name"></div>
+  <div class="tooltip-orig" id="tt-orig"></div>
+  <div class="tooltip-desc" id="tt-desc"></div>
+  <div class="tooltip-type" id="tt-type"></div>
+</div>
+
+<!-- Legend -->
+<div class="legend">
+  <div class="legend-title">// MAP LEGEND //</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ff006e;box-shadow:0 0 6px #ff006e"></div>Night City / Arasaka</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#39ff14;box-shadow:0 0 6px #39ff14"></div>Militech Sectors</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#bc13fe;box-shadow:0 0 6px #bc13fe"></div>Voodoo Boys</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ffd60a;box-shadow:0 0 6px #ffd60a"></div>Free Cities</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#00f5ff;box-shadow:0 0 6px #00f5ff"></div>Roads / Megaways</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#ff004c;box-shadow:0 0 6px #ff004c"></div>Classified / Danger</div>
+</div>
+
+<!-- Zoom controls -->
+<div class="zoom-controls">
+  <button class="zoom-btn" id="zoomIn">+</button>
+  <button class="zoom-btn" id="zoomOut">−</button>
+  <button class="zoom-btn" id="zoomReset" style="font-size:0.5rem;letter-spacing:0.05em">RST</button>
+</div>
+
+<div class="scanlines"></div>
+<div class="vignette"></div>
+
+<script>
+  const mapWorld = document.getElementById('mapWorld');
+  const mapContainer = document.getElementById('mapContainer');
+  const tooltip = document.getElementById('tooltip');
+
+  let scale = 1, minScale = 0.4, maxScale = 3;
+  let translateX = 0, translateY = 0;
+  let isDragging = false, startX, startY, startTX, startTY;
+
+  function updateTransform() {
+    mapWorld.style.transform = `translate(calc(-50% + ${translateX}px), calc(-50% + ${translateY}px)) scale(${scale})`;
+  }
+
+  // Zoom
+  mapContainer.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    const delta = e.deltaY > 0 ? 0.9 : 1.1;
+    scale = Math.min(maxScale, Math.max(minScale, scale * delta));
+    updateTransform();
+  });
+
+  document.getElementById('zoomIn').onclick = () => { scale = Math.min(maxScale, scale * 1.2); updateTransform(); };
+  document.getElementById('zoomOut').onclick = () => { scale = Math.max(minScale, scale * 0.8); updateTransform(); };
+  document.getElementById('zoomReset').onclick = () => { scale = 1; translateX = 0; translateY = 0; updateTransform(); };
+
+  // Drag
+  mapContainer.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX; startY = e.clientY;
+    startTX = translateX; startTY = translateY;
+  });
+  window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    translateX = startTX + (e.clientX - startX);
+    translateY = startTY + (e.clientY - startY);
+    updateTransform();
+  });
+  window.addEventListener('mouseup', () => { isDragging = false; });
+
+  // Touch
+  let lastTouchDist = null;
+  mapContainer.addEventListener('touchstart', (e) => {
+    if (e.touches.length === 1) {
+      isDragging = true;
+      startX = e.touches[0].clientX; startY = e.touches[0].clientY;
+      startTX = translateX; startTY = translateY;
+    }
+  });
+  mapContainer.addEventListener('touchmove', (e) => {
+    e.preventDefault();
+    if (e.touches.length === 1 && isDragging) {
+      translateX = startTX + (e.touches[0].clientX - startX);
+      translateY = startTY + (e.touches[0].clientY - startY);
+      updateTransform();
+    } else if (e.touches.length === 2) {
+      const dist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
+      if (lastTouchDist) { scale = Math.min(maxScale, Math.max(minScale, scale * (dist / lastTouchDist))); updateTransform(); }
+      lastTouchDist = dist;
+    }
+  }, {passive:false});
+  mapContainer.addEventListener('touchend', () => { isDragging = false; lastTouchDist = null; });
+
+  // Tooltip on city nodes
+  document.querySelectorAll('.city-node').forEach(node => {
+    node.style.cursor = 'pointer';
+    node.addEventListener('mouseenter', (e) => {
+      const name = node.dataset.name;
+      const orig = node.dataset.orig;
+      const desc = node.dataset.desc;
+      const type = node.dataset.type;
+      document.getElementById('tt-name').textContent = name;
+      document.getElementById('tt-orig').textContent = `formerly: ${orig}`;
+      document.getElementById('tt-desc').textContent = desc;
+      const typeEl = document.getElementById('tt-type');
+      typeEl.textContent = `[ ${type} ]`;
+      typeEl.style.color = type.includes('CLASSIFIED') ? '#ff004c' : type.includes('CORPO') ? '#39ff14' : type.includes('VOODOO') ? '#bc13fe' : '#00f5ff';
+      typeEl.style.border = `1px solid ${typeEl.style.color}`;
+      tooltip.classList.add('visible');
+    });
+    node.addEventListener('mousemove', (e) => {
+      tooltip.style.left = (e.clientX + 16) + 'px';
+      tooltip.style.top = (e.clientY - 10) + 'px';
+    });
+    node.addEventListener('mouseleave', () => { tooltip.classList.remove('visible'); });
+  });
+</script>
+</body>
+</html>
