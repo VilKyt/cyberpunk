@@ -22,6 +22,11 @@
 A party of D&D adventurers from Wildemount were defeated by a lich
 and sealed in a soul-drain tomb. A thousand years later, nomads crack
 the seal outside Night City. Magic still works. The lich is now
-running Arasaka. The Soulkiller is his phylactery network.
+running Arasaka. Soulkiller — his distributed phylactery network —
+is twenty years in development and finally, right now, ready to work.
 
-Only they can stop him — which is exactly why he wants them dead.
+Silverhand was captured the same week the tomb cracked open.
+His chip is the first extraction that held. The party are next.
+
+They woke up at exactly the wrong moment.
+Which might also be the only moment that matters.

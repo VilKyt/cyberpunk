@@ -11,13 +11,19 @@
 - Identity changes every few decades
 - Begins corporate infiltration ~200 years ago
 - Founds / takes over Arasaka ~80 years ago
-- Soulkiller reaches continental scale ~20 years ago
+- Old methods: branding, corruption, partial soul-drain through cyberware
+- Soulkiller research begins ~20 years ago — still experimental
+- Previous attempts failed: engrams extracted but unstable, soul-integrity degraded on capture
+- The problem: no sufficiently clean source material to calibrate against
 
 ## Present Day (Session 1)
 - Nomads crack the tomb seal
 - Party wakes — first clean souls on the continent in centuries
 - Director issues Convergence File collection order
-- Clock starts
+- Silverhand captured in the same window — first viable Soulkiller test subject
+- His chip is the first extraction that actually holds
+- The party are next — or the threat that forces the Director's hand
+- Clock starts: Soulkiller transitions from experiment to deployment
 
 ## Future (Acts 2–3)
 - Night City arc — integration, factions, Silverhand
