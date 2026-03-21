@@ -20,14 +20,14 @@
 - Nomads crack the tomb seal
 - Party wakes — first clean souls on the continent in centuries
 - Director issues Convergence File collection order
-- Silverhand captured in the same window — first viable Soulkiller test subject
-- His chip is the first extraction that actually holds
-- The party are next — or the threat that forces the Director's hand
-- Clock starts: Soulkiller transitions from experiment to deployment
+- Clock starts: Soulkiller still experimental, the Director is still looking
+  for clean source material to make it work
 
 ## Future (Acts 2–3)
-- Night City arc — integration, factions, Silverhand
+- Night City arc — integration, factions, Silverhand (alive, ally, potential PC)
 - The Archivist quest
-- Arasaka raid
-- Soul chip extraction
+- Arasaka raid — Silverhand leads it; is captured during the assault
+- His chip is the first Soulkiller extraction that holds: prototype becomes proof of concept
+- The Director can now scale; the party must act before he does
+- Soul chip: can it be reversed?
 - Space chapter (Act 3+)

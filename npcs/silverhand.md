@@ -1,47 +1,98 @@
-# NPC — JOHNNY SILVERHAND
+# NPC / PC — JOHNNY SILVERHAND
+
+---
 
 ## Status
-Captured. His engram is the first Soulkiller extraction that actually works.
+Alive. Anti-corporate terrorist, musician, legend — depending on who you ask.
 
-Silverhand was taken by Arasaka in the same window the party woke up —
-the Director's response to the tomb seal breaking was to sweep for
-anything that might complicate his work. Silverhand had been making
-enough noise that the sweep caught him first.
+This is a divergence from canon. Silverhand is in the world,
+making noise, and has been for years. He is not a chip. Not yet.
 
-His chip is proof of concept. He is alive — the body is somewhere in
-Arasaka, status unknown. His engram is in their experimental infrastructure,
-loose enough to move, not free enough to get out.
+---
 
-## Role
-The party will encounter him through the experimental network before
-they encounter him in person. He is the first Soulkiller subject to
-retain enough coherence to communicate. He will not understand what
-happened to him. He will be angry about it in the particular way
+## Role in the Campaign
+
+### Acts 1–2: Ally and Potential PC
+The party will encounter Silverhand through the Night City underground.
+He has been watching Arasaka for decades — suspects they are doing
+something to people's minds, has no framework for what or why.
+
+When the party can give him that framework, his investment becomes personal.
+
+He is designed to be played as a PC for a stretch of the campaign —
+loud, specific, useful, and eventually someone the players are
+genuinely attached to. That attachment matters for what comes next.
+
+### The Raid: He Leads It
+Silverhand leads the assault on the Arasaka tower. This is his third
+attempt. He knows the building. He knows the risks. He goes anyway.
+
+### The Capture — Campaign's Soulkiller Moment
+During the raid, Silverhand is captured.
+
+The Director runs the extraction. It works.
+
+Silverhand's chip is the first Soulkiller extraction that actually holds —
+the first one to produce something real rather than residue. The party
+may witness this. They may be unable to stop it. Either way, they are
+there when the Director's twenty-year experiment becomes a working weapon.
+
+This is the moment Soulkiller transitions from prototype to proof of concept.
+Everything that follows — the Director's ability to scale, to build the
+continental network — begins here.
+
+### After the Raid
+His chip is in Arasaka's experimental infrastructure. Loose enough to
+move through the network. Not free enough to get out.
+
+He retains enough coherence to communicate. He will not fully understand
+what happened to him. He will be angry about it in the particular way
 Silverhand is angry about everything — loud, specific, useful.
 
-He becomes the case study that teaches the party what Soulkiller actually
-does. If his extraction can be reversed, maybe others can be. If it can't,
-that's also information.
+He becomes the party's contact inside the network. And the proof that
+if one extraction can be reversed, others might be.
 
-Leads the party toward the Arasaka raid — from inside.
-Has his own agenda inside the tower. Personal score with the Director,
-though he doesn't yet understand the Director's true nature.
+---
 
 ## What He Knows About Magic
-Nothing. Yet. His reaction to the party's abilities will be a key
-character moment — contempt first, then the specific kind of respect
-Silverhand has for things that don't make sense and work anyway.
+
+Nothing. Yet.
+
+His reaction to the party's abilities will be a key character moment —
+contempt first, then the specific kind of respect Silverhand has for
+things that don't make sense and work anyway.
 
 He will reach the conclusion that the Director has been doing something
 similar to what the party describes — just with different tools — faster
 than anyone expects. He's been watching Arasaka for decades.
-He just didn't have a framework for soul-drain. Now he does.
+He just lacked a framework. The party gives him one.
+
+---
 
 ## Connection to the Director
-He knows Arasaka is doing something to people's minds.
-He doesn't know he's already been done.
-The party will have to tell him.
+
+Suspects Arasaka is manipulating people. Has seen the results.
+Cannot explain the mechanism. The party can give him that.
+
+He has a personal score with the Director — though he does not yet
+know the Director's true nature. When he does, it reframes everything
+he thought he understood about his fight.
+
+---
+
+## PC Notes
+
+Silverhand as a played character should feel like a force of nature
+with bad impulse control and a very specific moral code. He is not
+the leader — he is the accelerant. He pushes situations toward
+confrontation. The party has to decide whether to follow or brake.
+
+His arc: from "I know what I'm doing" to "I was always going to end up
+here" — and whether that ending means something depends entirely on
+what the party does with his chip afterward.
+
+---
 
 ## Trust State
 [ ] Hostile  [ ] Cautious  [x] Neutral  [ ] Allied  [ ] Trusted
-*(starts neutral; shifts fast once he understands what they're up against)*
+*(starts neutral; shifts fast once the party demonstrates what they can see)*

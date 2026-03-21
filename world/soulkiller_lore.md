@@ -25,25 +25,35 @@ The failure condition: he has nothing clean to calibrate against.
 Everyone in Night City has been touched by ambient corruption.
 There is nothing pure enough to use as a baseline.
 
-## Present Day — The Transition
+## Present Day — Still Experimental
 
-The party waking up changes everything.
+The party waking up changes the Director's calculus.
 
-Silverhand is captured in the same window — the first
-extraction that actually holds. His soul-integrity is
-degraded from decades of corp exposure, but compared to
-every other subject, he is clean enough. His chip works.
-It is the first Soulkiller extraction that produces
-something real rather than residue.
+They are the cleanest source material he has ever
+encountered — souls sealed for a thousand years, never
+touched by the network, never ambient-corrupted.
 
-The party are the next logical step. Souls sealed for a
-thousand years, never touched by the network, never
-ambient-corrupted. If Silverhand is a proof of concept,
-the party are the proof that it scales.
+But they escaped. And Soulkiller still doesn't work.
+Not yet. Every extraction to date has produced degraded
+results. The Director has the party's existence as proof
+that sufficiently clean souls exist. He does not yet
+have them.
 
-The Director is in transition. He is not maintaining
-a continental network — he is on the verge of building one.
-The party woke up at the worst possible moment.
+## The Raid — When It Becomes Real
+
+Soulkiller's first working extraction does not happen
+in a lab. It happens during the assault on Arasaka tower.
+
+Silverhand leads the raid. He is captured.
+The Director runs the extraction. It holds.
+
+His chip is the first Soulkiller extraction that produces
+something real rather than residue — a genuine soul-fragment,
+not a hollow copy. The party may be there when it happens.
+
+This is the transition. The Director's twenty-year experiment
+becomes a working weapon in the same moment the party is
+closest to stopping him.
 
 ## Secure Your Soul (Public)
 Arasaka's premium service. Full consciousness backup.

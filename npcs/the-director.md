@@ -23,7 +23,13 @@ He has had a thousand years to refine what he learned in Wildemount. The phylact
 
 Until now.
 
-Silverhand is the first Soulkiller extraction that holds. His chip is proof the system functions. The party, sealed in the Quiet Mile for a thousand years with completely uncontaminated souls, are the calibration source the Director has been lacking. He is in the middle of a transition — from the crude branding and ambient corruption of his old methods to something that scales, something permanent. The party woke up at exactly the wrong moment for them, and exactly the right moment for him.
+He has had a thousand years to refine the phylactery concept into the
+**Soulkiller programme** — but it doesn't work yet. Twenty years of
+failed extractions. Every soul in Night City is too corrupted to use
+as calibration material. He has been patient. He is still patient.
+
+The party waking up tells him the material he needs exists.
+He does not yet have them. But he will look.
 
 He does not think of this as evil. He thinks of it as infrastructure. It just hasn't been built yet.
 
@@ -36,7 +42,7 @@ The Soulkiller is not a single weapon. It is a **distributed system he is still 
 - **Layer 1 (Public):** Secure Your Soul — sell the public on digital immortality. The marketing exists. The infrastructure to deliver it at scale does not yet. The product is real enough to sell; the backend is still experimental.
 - **Layer 2 (Corporate):** The intended design — engrams aren't stored, they're processed. Soul-integrity data extracted and fed into the phylactery network. The "backup" is a hollow copy. This is the goal. It is not yet running at scale.
 - **Layer 3 (The problem):** Every extraction attempt before Silverhand produced degraded results. Ambient corruption has contaminated every soul in Night City. The Director has been running test after test for twenty years. Nothing clean enough to calibrate against.
-- **Layer 4 (Present moment):** Silverhand's chip works. It is the first real extraction. The party are next — souls sealed for a thousand years, completely uncontaminated. If he captures them and runs the calibration, Soulkiller goes from prototype to deployment-ready. The party escaped before he could use them. This is the crisis.
+- **Layer 4 (The raid):** This is when it works. Silverhand leads the assault on Arasaka tower and is captured during it. The Director runs the extraction. It holds — the first real one. The party may witness this. Whether they can stop it, reverse it, or use it against him is the question that drives Act 3.
 
 ---
 
@@ -74,9 +80,9 @@ In Arasaka's network he is everywhere and nowhere — his presence in the system
 
 In order of priority:
 
-1. **Capture the party intact** — they are the calibration source that makes Soulkiller deployable; they cannot be destroyed, only taken
-2. **Lock down the Silverhand extraction** — his chip is the proof of concept; it cannot be retrieved or destroyed before deployment begins
-3. **Launch Soulkiller** — transition from experimental to continental; the window is now
+1. **Capture the party intact** — they are the cleanest souls on the continent; Soulkiller needs them to work at scale
+2. **Complete the Soulkiller extraction** — the first working test will happen during the raid; Silverhand is the subject
+3. **Launch Soulkiller** — once the proof of concept holds, transition from experimental to continental
 4. **Containment of magical knowledge** — the party's existence proves magic still functions; this cannot become common knowledge
 5. **Continued stability of Arasaka** — the corporation is his body; he maintains it accordingly
 

@@ -81,7 +81,7 @@ the party can extract from him, and in what state.
 | The Director is running Arasaka | **KNOWS** | Has been watching the corporate structure for decades. |
 | The Director has been corrupting souls for centuries | **KNOWS** | Witnessed early methods. Can describe Wildemount-era soul-drain. |
 | Something called Soulkiller is in development | **PARTIAL** | He has seen data fragments, transmission patterns. Knows it exists. Doesn't know it just became viable. |
-| Silverhand's chip is the first working extraction | **UNKNOWN** | He hasn't been inside Arasaka's secure servers. |
+| Silverhand will be the first working extraction | **UNKNOWN** | He doesn't know the raid is coming, or what the Director has planned for Silverhand. |
 | The Director's final endgame threshold | **UNKNOWN** | He suspects something. He won't say what. Not yet. |
 | Whether Soulkiller can be reversed | **UNCERTAIN** | His theory: yes, but only while the network is still experimental. Once it scales, the window closes. He doesn't know how close that is. |
 
