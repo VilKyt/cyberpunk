@@ -26,8 +26,10 @@
 ## Future (Acts 2–3)
 - Night City arc — integration, factions, Silverhand (alive, ally, potential PC)
 - The Archivist quest
-- Arasaka raid — Silverhand leads it; is captured during the assault
-- His chip is the first Soulkiller extraction that holds: prototype becomes proof of concept
-- The Director can now scale; the party must act before he does
-- Soul chip: can it be reversed?
+- **The Arasaka Tower Raid** — the one from the lore; Silverhand and Rogue's assault
+  - Party arrives by helicopter with Rogue's crew
+  - Adam Smasher intercepts; Silverhand is captured
+  - Director runs the extraction — first working Soulkiller
+  - Party outcome TBD: captured, witness and escape, or something else
+- Act 3 TBD — to be developed after the raid structure is set
 - Space chapter (Act 3+)

@@ -23,34 +23,30 @@ He is designed to be played as a PC for a stretch of the campaign —
 loud, specific, useful, and eventually someone the players are
 genuinely attached to. That attachment matters for what comes next.
 
-### The Raid: He Leads It
-Silverhand leads the assault on the Arasaka tower. This is his third
-attempt. He knows the building. He knows the risks. He goes anyway.
+### The Raid — The Arasaka Tower Attack
+This is the raid. Not the second. Not the third. The one.
 
-### The Capture — Campaign's Soulkiller Moment
-During the raid, Silverhand is captured.
+Silverhand and Rogue plan the assault on Arasaka Tower.
+The party joins it — arriving by helicopter with Rogue's crew,
+breaching the tower, pushing toward the servers.
 
-The Director runs the extraction. It works.
+Adam Smasher is waiting. Arasaka's top enforcer — full conversion
+cyborg, loyal to the Director's infrastructure in a way that goes
+beyond programming. He stops Silverhand.
 
-Silverhand's chip is the first Soulkiller extraction that actually holds —
-the first one to produce something real rather than residue. The party
-may witness this. They may be unable to stop it. Either way, they are
-there when the Director's twenty-year experiment becomes a working weapon.
+Silverhand is captured. The Director runs the extraction.
+It works — the first Soulkiller that actually holds.
 
-This is the moment Soulkiller transitions from prototype to proof of concept.
-Everything that follows — the Director's ability to scale, to build the
-continental network — begins here.
+**What happens to the party during the raid is TBD:**
+- Do they get taken too?
+- Do they witness the extraction and escape?
+- Are they the reason the chip ends up somewhere other than
+  Arasaka's vault?
+
+The outcome of this moment shapes Act 3. Work it out in play.
 
 ### After the Raid
-His chip is in Arasaka's experimental infrastructure. Loose enough to
-move through the network. Not free enough to get out.
-
-He retains enough coherence to communicate. He will not fully understand
-what happened to him. He will be angry about it in the particular way
-Silverhand is angry about everything — loud, specific, useful.
-
-He becomes the party's contact inside the network. And the proof that
-if one extraction can be reversed, others might be.
+TBD — to be developed once the raid structure is set.
 
 ---
 
