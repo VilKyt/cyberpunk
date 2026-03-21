@@ -1,5 +1,5 @@
 # NPC — ADAM SMASHER
-*Arasaka's Enforcer*
+*The Director's Prime Soldier*
 
 ---
 
@@ -7,47 +7,96 @@
 
 | | |
 |---|---|
-| **Role** | Full-conversion cyborg; Arasaka's top military asset |
-| **Loyalty** | Arasaka — and therefore, without knowing it, the Director |
-| **Threat level** | The reason the raid fails |
+| **Role** | Full-conversion cyborg; the Director's unkillable enforcer |
+| **Soul** | Drained. Gone. Decades ago. |
+| **Loyalty** | Absolute — not programmed, metaphysically enforced |
+| **Threat level** | Cannot be killed by conventional means. Cannot be killed by death magic. The party cannot fight him and win. |
 
 ---
 
 ## What He Is
 
-Adam Smasher is not a person in any meaningful sense anymore.
-Full conversion — every organic component replaced. What remains
-of the original man is unclear, and he doesn't appear to care.
+Adam Smasher was a mercenary. Good at his work. At some point —
+before the corps took full hold of Night City, before most people
+alive today were born — the Director found him useful and made him
+an offer.
 
-He is exactly what the Director needs at the physical layer:
-something that cannot be soul-drained (nothing left to drain),
-cannot be corrupted (already fully machine), and will stop
-anything that reaches the upper floors of Arasaka Tower.
+The soul-drain happened years before the full-conversion cyberware.
+The Director extracted what he needed from Smasher's soul-integrity
+long ago, feeding it into the early Soulkiller experiments. What
+was left was a man with no capacity for self-determination, no
+spiritual anchor, no possibility of resistance. The machinery came
+after. It filled the space that was left.
 
-He does not know what the Director is. He doesn't need to.
-He knows his orders and he executes them. That's the arrangement.
+He is not a corrupted soldier. He is not marked like Arasaka's
+branded personnel. He is something older and simpler: a vessel
+the Director emptied and refilled with purpose. The distinction
+matters — the corruption the party sees on Arasaka agents is a
+side effect, a byproduct of proximity to phylactery energy. Smasher
+has no soul left to corrupt.
 
----
-
-## The Raid
-
-Adam Smasher intercepts Silverhand during the Arasaka Tower assault.
-
-He stops him. Silverhand is taken.
-
-The party will encounter Smasher during the raid. Whether they
-fight him, avoid him, or get through him is a question for the
-table. What is not a question: he is the reason this raid ends
-the way it ends.
+He reads as **blank**. Not clean, like the party. Not marked,
+like Arasaka staff. Just absent. An empty frequency.
 
 ---
 
-## Notes
+## Why He Cannot Die
 
-- Magic does not work on him the way it works on people.
-  There is nothing organic left to affect. Spells targeting
-  the mind, soul, or body find nothing to anchor to.
-- The corruption the party sees on Arasaka agents is absent.
-  He reads as blank — not clean like the party, just empty.
-- He is not the final boss. He is the obstacle that makes
-  the final boss possible.
+The Director maintains him the way a lich maintains a favored
+instrument. When Smasher is destroyed — and he can be destroyed,
+physically — the Director reconstructs him. The process takes time
+and resources, but it has been done before. The soul was drained
+decades ago; what remains is machinery and the Director's will.
+There is no life to extinguish. There is no soul to send on.
+
+**Death magic finds nothing to anchor to.**
+Spells that kill, spells that destroy the soul, spells that
+target the mind or the spirit — they pass through him or
+fail entirely. There is no soul to touch. There is no death
+to invoke. He is already, in the most technical sense, not alive.
+
+**Resurrection works because the Director makes it work.**
+He is not self-sustaining in the way the living are. He is
+sustained by the Director's investment. Destroy him completely
+and the Director will rebuild him when it is worth the cost.
+
+---
+
+## What Works Against Him
+
+The party cannot kill Smasher in the conventional sense.
+They can:
+
+- **Disable him** — physically destroy enough of the chassis
+  to remove him from the fight temporarily
+- **Delay him** — he is powerful, not fast at every layer;
+  the right magic can slow, bind, or divert him
+- **Avoid him** — the correct tactical answer during the raid
+  is not to engage Smasher but to get past him or around him
+
+What does not work: anything targeting soul, death, mind, spirit.
+The party's magic is a language spoken to living things.
+Smasher is not a living thing.
+
+---
+
+## During the Raid
+
+Smasher is waiting. He will be wherever the Director most needs
+him — likely the path between the party and the servers.
+
+He stops Silverhand. He will attempt to stop the party.
+
+The question for the table is not "can we beat him" but
+"what do we sacrifice to get past him."
+
+---
+
+## The Magic Read
+
+A party member with arcane or divine sensitivity observing Smasher:
+
+> *There is nothing there. Not the iridescence of the corrupted,
+> not the clean stillness of your own souls. Where a person
+> should register, there is an absence — like a word with
+> the meaning removed. The machinery moves. Nothing else does.*
