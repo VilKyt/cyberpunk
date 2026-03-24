@@ -159,6 +159,23 @@ Splice hands over a physical card for each person — a backup authentication to
 
 She lets each player name their own character's fake identity, or she has a list of plausible Night City names if anyone is at a loss. The names should feel slightly wrong — close but not quite right, the way a forged document always has something slightly off if you know what to look for.
 
+**Splice's Name List** *(pre-generated, pull from this if players want one)*
+
+| Female | Male |
+|---|---|
+| Vera Scholt | Dax Reiner |
+| Nika Voss | Cael Muro |
+| Sable Ortiz | Renz Takeda |
+| Priya Holt | Ivo Crane |
+| Zoe Marek | Bram Sorel |
+| Kass Ellroy | Lev Nada |
+| Mira Kade | Finn Okafor |
+| Taja Wren | Rook — no, she says flatly, pick another |
+| Cori Ashfeld | Soren Vael |
+| Nyx Palvo | Dio Kestrel |
+
+Names are real people — or were. Watson district residents, low profile, recently deceased or relocated out of city records. Splice picked ones with no living relatives in the system. She doesn't say this unless asked.
+
 > *"These will hold everywhere that doesn't matter. Bars, transit, street checkpoints. Don't walk into an Arasaka facility expecting them to hold."*
 
 She pauses.
