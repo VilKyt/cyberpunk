@@ -14,7 +14,8 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 
 - [Scene 1 — The Tomb](scene-1-the-tomb.md)
 - [Scene 2 — Rook's Camp](scene-2-rooks-camp.md)
-- Scene 3 — Night City Fringe *(planned)*
+- [Scene 3 — Ghost IDs](scene-3-ghost-ids.md)
+- Scene 4 — Night City, First Entry *(planned)*
 
 ---
 
