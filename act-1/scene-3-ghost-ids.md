@@ -80,50 +80,131 @@ She had a netrunner lined up. The netrunner is currently in a hospital after a j
 
 ---
 
-## Beat 2 — Getting Into the Node
+## Beat 2 — The Tower
 
-### The Access Point
-Splice has a hardline tap into a decommissioned city infrastructure relay about three blocks into the fringe — a physical connection point to the Watson civil net, old enough that it's not on Arasaka's active monitoring list. Getting to it requires moving through a block of fringe territory that is nominally controlled by a small gang (the **Rust Dogs**) who mostly care about turf fees and mostly leave corporate-looking strangers alone.
+### The Location
 
-*Mostly.*
+Splice gives them a hand-drawn sketch of the target before they leave — three blocks from the body shop, past the Rust Dog turf line, at the edge of a derelict industrial block.
 
-**Option A — Pay the turf fee.** A few hundred eddies, or an item of value, gets them through without incident. The Rust Dogs don't look too hard at people who pay without arguing. Splice can front the money if the party is entirely broke, which she'll note without warmth.
+A **comms relay tower** — forty metres of lattice steel, half the paint gone, aircraft warning lights blinking on a slow cycle at the top. The city used it for emergency broadcast infrastructure about twenty years ago. It was decommissioned when the private sector bought the frequency, and it's been sitting here since, technically owned by a shell company, practically owned by nobody.
 
-**Option B — Go around.** Longer. Takes them through a storm drain system that comes out behind the relay. No gang contact. Instead, the drain system is home to a woman — clearly once human, heavily augmented, far past any corp maintenance contract — who has been living there for what appears to be years. She doesn't attack. She watches them pass. One eye is standard, the other is something older and glows faint amber. **Magic-sensitive characters:** there is no corruption signature on her. None. She is as clean as the party. She does not speak. She disappears back into the dark.
+The hardline connection to the Watson civil net is at the base — a junction box bolted to the tower's concrete footing, accessible from inside the compound fence.
 
-*(GM note: She is not a plot point for this scene. She is a question mark. File it.)*
+The compound: a chain-link perimeter, topped with razor wire that's partially collapsed on the south-east corner. A single gate on the west side, padlocked, with a guard post built into a repurposed shipping container beside it. A second container on the north side of the tower base — storage or a rest area. A floodlight on a timer that sweeps the interior every three minutes.
 
-**Option C — Bluff through.** The party's lack of ID signal is actually useful here — the Rust Dogs' scanner shows them as errors, which reads, sometimes, as corp dark-op. A confident lie and a plausible cover story might get them waved through with more speed than Option A.
+**Splice's assessment:**
+> *"The tower is officially unoccupied. It is not unoccupied. Someone's been running a private security contract on it — three guards, rotating, two on at a time. Not Arasaka. Not gang. Probably infrastructure contractors — they show up, they sit, they don't ask questions. They have weapons. They will use them if pushed."*
 
-### The Node
-The relay access point is a locked junction box on the side of a building that probably used to be a post office. Splice provided a physical key. Inside is a hardline port and a nest of cables that haven't been touched since someone who is now definitely dead last maintained them.
+She pauses.
 
-**The node itself — what they're dealing with:**
+> *"Don't kill anyone you don't have to. A body at an unmanned relay is a different kind of problem than a fight that nobody won."*
 
-| Layer | Description | Challenge |
+---
+
+### The Compound — Ground Layout
+
+```
+         [TOWER BASE / JUNCTION BOX]
+                    |
+         [NORTH CONTAINER — rest area]
+                    |
+    [FLOODLIGHT — 3min sweep arc]
+                    |
+[WEST GATE + GUARD POST] -------- [FENCE PERIMETER]
+                    |
+         [SOUTH-EAST — collapsed wire section]
+```
+
+**Guard positions at arrival (roll 1d4 to determine):**
+
+| Roll | Guard 1 | Guard 2 |
 |---|---|---|
-| Surface | Old municipal OS, outdated security protocols | Straightforward entry for anyone with basic netrunning capability |
-| Registry | Civil records — searchable, editable, logged | Finding the right records requires knowing what to look for; Splice gave them the file reference |
-| Watchdog | A legacy ICE program — not sophisticated, but persistent. It runs sweeps every four minutes. | Must be neutralised or evaded; it will lock the connection and alert a human admin if it catches them |
-| Depth | Archived records going back decades — this is where Splice's old record is buried | Takes longer to reach; the watchdog runs more frequently down here |
+| 1 | Guard post, awake, watching the gate | North container, eating |
+| 2 | Patrol, north side of compound | Guard post, half-asleep |
+| 3 | Both at guard post, talking | — |
+| 4 | Guard post | Patrol, full circuit — will reach gate in 4 minutes |
 
-**For the party without a dedicated netrunner:**
+**Guard stats (use as base — adjust for party level):**
+Standard human, light armour. Sidearm (1d8 piercing, range 30/90 ft). One carries a combat shotgun (2d8 piercing, range 30 ft, hits all in a 5ft line on a nat 20). Neither has armour that stops magic.
 
-This campaign assumes the party may not have conventional netrunning skills. Options:
-- A magic user can interface directly with the node — the junction box responds to arcane touch in a way that should not be possible. Treat it as a modified version of their normal spellcasting: they're reading and writing the node like a text they can alter. This is slow and strange and leaves a different kind of trace than normal netrunning. Splice will have questions.
-- Physical work: the node's terminal has a manual access mode, older than the wireless system, that a skilled enough operator can use with direct input. Slower. More exposed. Effective.
-- Combination: one person interfaces while another watches the clock and calls out when the watchdog sweep is due.
+They are not brave. They are doing a shift for pay. This matters.
 
-**The four-minute clock:** Run this with actual tension. When the watchdog sweeps, anyone still in the system needs to either be very quiet (hide their presence) or be out. Getting caught doesn't immediately end the run — it starts a countdown to a human admin getting an alert, which gives them maybe ten minutes before someone physically checks the relay.
+---
+
+### Approach Options
+
+Before anyone is in the net, the party needs to get the runner to the junction box safely and establish control of the compound. This is not a suggestion — the runner cannot be in an exposed position while jacked in.
+
+**Option A — Negotiate.** The guards are contactable at the gate. They have no particular loyalty to whoever is paying them and no intel on what the party wants inside. A plausible cover story (infrastructure repair, city inspection — the party has no IDs yet, which is a problem, but the guards' scanner will show them as *errors* which sometimes reads as dark-op clearance) and a persuasion roll (DC 14) gets them waved through. Bribery is DC 10 with a few hundred eddies. Either way the guards stay present — the party needs the runner somewhere the guards aren't looking, which requires splitting attention.
+
+**Option B — Stealth entry.** The south-east corner's collapsed razor wire is a viable entry point — Dexterity (Acrobatics) DC 12 to get through without noise, DC 14 without getting cut. The floodlight sweep is predictable. Getting the runner to the junction box unseen requires Stealth checks (DC 13) each time the floodlight arc passes, and requires accounting for guard patrol timing.
+
+**Option C — Go loud.** The party controls the compound by force. This is the fastest route to the runner getting the access they need — and the most complicated aftermath. See *If It Goes Loud* below.
+
+**Option D — Combination.** The most functional play: two characters handle the guards (distraction, persuasion, or direct engagement) while one escorts the runner to the junction box under cover of the distraction. Requires coordination and communication. Rewards planning.
+
+---
+
+### The Runner Goes In
+
+Once at the junction box — Splice's physical key opens the access panel — the runner jacks in. From this point:
+
+- **The runner is physically unconscious-adjacent.** Eyes unfocused. Unresponsive to voice. Cannot take actions in the real world. Cannot call for help.
+- **Someone must stay with them.** A jacked-in runner hit by a stray bullet makes a Concentration check (DC 10 + damage taken) or is violently ejected from the net — disoriented, 1d6 psychic damage, cannot re-enter until the end of their next turn.
+- **The run clock and the real-world clock are the same.** Every round the runner spends in the net, one round passes outside. Keep initiative running for both simultaneously.
+
+**The node — architecture:**
+
+| Node | Type | DC | Notes |
+|---|---|---|---|
+| Gateway | Entry | 12 | Old OS, outdated certs — easy to spoof |
+| Registry | File | 10 | Civil records. Write the IDs here. |
+| Watchdog | Security | 15 | Sweeps every 4 rounds. Evade or destroy. |
+| Archive | File | 14 | Decades of records. Splice's old file is buried here. |
+| — | — | — | *(Root not needed — they don't need full control)* |
+
+**What the runner finds in Archive (optional, if they look):** a flagged file, dated six months ago, marked `CVGNC-OPS / DIRECTOR-NOTIFIED`. A death certificate. Female, Watson district, no corp affiliation. Cause of death: natural causes. She was **107 years old**. No family listed. A handwritten note scanned into the file: *"She always said she'd outlast them."* The Director was notified when this woman died of old age. The runner can copy the file. They should not stop to read it now.
+
+The run takes **minimum 5 rounds** if things go cleanly (see Sample Sequence in `world/netrunning-mechanics.md`). Complications extend this.
+
+---
+
+### Firearms — How Combat Works Here
+
+This is likely the party's first gun fight. Establish these before the encounter or remind players of them clearly:
+
+**The basics:**
+- Firearms use **Dexterity** for attack rolls (unless a feature specifies otherwise)
+- Attacks are made against AC as normal — light armour is AC 13, guard post provides **half cover (+2 AC and DEX saves)**
+- Range: pistols have normal/long range (30/90 ft); rifles (60/180 ft); shotguns are short (30 ft max, no long range)
+
+**Cover matters here.** The tower's concrete base, the containers, and the fence posts are all viable. The compound is small — nothing is out of range. But a character behind the north container has half cover from anyone at the gate. Behind the tower base is three-quarters cover (+5 AC). In the open, beside the runner's body, is a problem.
+
+**Suppression (optional rule):** Instead of attacking, a character can use their action to lay down covering fire — burning ammunition, not trying to hit, just making a guard unwilling to move. The target must make a DC 13 Wisdom save or spend their next turn taking cover rather than advancing or shooting. This is useful for keeping guards pinned while the runner finishes.
+
+**Noise:** Any gunshot is heard. If it goes loud, the guards will call for backup — **6 rounds** before a response vehicle arrives. The runner needs to be done and out by then. Tell the players this number. Let them manage it.
+
+---
+
+### If It Goes Loud
+
+Initiative starts. The two guards fight — not heroically, practically. Guard 1 takes cover at the post and calls for backup immediately (start the 6-round clock). Guard 2 moves for the tower base, trying to get eyes on what's happening inside the compound.
+
+**Guard tactics:**
+- They shoot from cover. They do not charge.
+- If one goes down, the other reassesses. If they are clearly outmatched, the second guard will shout for terms — *"What do you want? Tell me what you want!"* — and will accept a deal if it gets them out alive. They are not paid enough to die.
+- They aim for the most visible threat. If the runner is visible and stationary, they will eventually realise that person isn't fighting back. They will move on the runner. This is the moment someone needs to stop them.
+
+**If the clock runs out:** A beat-up van arrives at the gate — two more contractors, better armed, confused about what they're walking into. They are not Arasaka. They are a problem, not a catastrophe. But they extend the fight and the runner needs to already be out.
+
+**After it's over:** Splice was clear about not leaving bodies at an unmanned relay. If there are bodies, someone has to make a call — leave them and hope nobody checks for a few days, move them (Strength check, time-consuming), or bribe the surviving guard into silence and a story about what happened. Each option has downstream weight.
+
+---
 
 ### What They Find In There
-While in the node — if they look beyond the immediate task — there is other data.
+*(Already embedded above — the Watchdog Archive section. Repeated here for GM reference.)*
 
-They don't have time to read it all. But one record catches: a flagged file, dated six months ago, marked with an access tag that reads `CVGNC-OPS / DIRECTOR-NOTIFIED`. The flag is on a civil record. A person. Female, Watson district, no corp affiliation.
-
-The record beneath the flag is a death certificate. **Cause of death: natural causes.** Someone died of old age in Watson. The Director was notified. Why would the Director care about one old woman dying of old age?
-
-**If they copy the record:** The woman's name and address are on it. She died in an apartment in Watson. She was, according to the record, **107 years old** — plausible but extreme. No family listed. No corp history. One note in the file, handwritten and scanned in: *"She always said she'd outlast them."*
+The flagged file marked `CVGNC-OPS / DIRECTOR-NOTIFIED` is in the Archive node. A death certificate for a 107-year-old woman in Watson. No family. No corp history. The Director was personally notified when she died. The scanned handwritten note: *"She always said she'd outlast them."*
 
 This is a thread. Do not explain it here. Let them carry it.
 
