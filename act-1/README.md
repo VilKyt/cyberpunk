@@ -5,7 +5,7 @@
 The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a thousand years ago. Nomads crack the seal by accident. Arasaka responds within minutes. The Badlands and Night City await.
 
 **Tone:** Disorientation, dread, dark humour. The players are powerful and completely lost.  
-**Sessions estimated:** 2–3  
+**Sessions estimated:** 3–4
 **Key location:** The Quiet Mile, Badlands fringe east of Night City
 
 ---
@@ -15,7 +15,7 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 - [Scene 1 — The Tomb](scene-1-the-tomb.md)
 - [Scene 2 — Rook's Camp](scene-2-rooks-camp.md)
 - [Scene 3 — Ghost IDs](scene-3-ghost-ids.md)
-- Scene 4 — Night City, First Entry *(planned)*
+- [Scene 4 — The Checkpoint](scene-4-the-checkpoint.md) *(Act 1 closer)*
 
 ---
 
