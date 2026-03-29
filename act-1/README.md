@@ -17,6 +17,15 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 - [Scene 3 — Ghost IDs](scene-3-ghost-ids.md)
 - [Scene 4 — The Checkpoint](scene-4-the-checkpoint.md) *(Act 1 closer)*
 
+## Side Quests (Badlands Fringe)
+*Modular — any order, any combination. Slotted between Scenes 2 and 3.*
+
+- [Quest A — The Wraith Foray](side-quests/quest-a-wraith-foray.md) — Combat. Rook's trust test. 6 scavengers, guns, optional corruption detail.
+- [Quest B — The Tomb Run](side-quests/quest-b-tomb-run.md) — Supply escort with tomb artifacts. Fence contact Henk. Rook trust: Neutral → Allied.
+- [Quest C — The Drag](side-quests/quest-c-the-drag.md) — Vehicle race. No main-story stakes. Tone break. Corruption visible in racer Dio.
+- [Quest D — The Dead Zone](side-quests/quest-d-the-dead-zone.md) — Minor. The woman's pocket dimension threshold. She doesn't come out. She leaves a stone.
+- [Quest E — First Contact](side-quests/quest-e-first-contact.md) — Minor. The Archivist signal. First conversation. He asks what year it is.
+
 ---
 
 ## Act 1 Thread Tracker
