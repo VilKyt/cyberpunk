@@ -24,3 +24,17 @@ A callback to the opening of *Blade* — since we already have a lich, a small n
 - Vampires are *extremely* rare and hidden — not a faction, more like an open secret among the city's elite.
 - Their existence shouldn't overshadow the lich as the primary supernatural threat; they're adjacent, not competing.
 - The "vampires as generals" angle could explain how the lich maintains control without showing his hand directly.
+
+---
+
+## Neural Ads / Dopamine Trap (Night City entry)
+
+When the party's chips go live in the city, they're suddenly on the grid — and the grid immediately starts selling to them. Ads, VR overlays, neural-targeted dopamine hits pushed through the same hardware that broadcasts their ID.
+
+**The hook:** First time in the city, they could be hit by this without expecting it. A billboard doesn't just flash — it *resonates* through the chip. A storefront pumps a synthetic comfort signal. Someone could engage with it (curiosity, boredom, temptation) and walk away slightly wrong.
+
+**Mechanical idea:** Engaging with an ad/VR prompt requires a Wisdom save (DC varies by source — street-level spam is DC 10, high-end corpo targeting is DC 15). On a fail: a mild debuff (disadvantage on Perception or Insight for an hour — the brain chasing the dopamine trail instead of paying attention). Repeated failures stack or extend duration.
+
+**The interesting angle:** Their chips are foreign to this infrastructure. Standard ad-targeting reads them as anomalous and may serve them *unfiltered* content — the kind corpo psych-ops use on targets, not customers. First exposure could be disorienting in ways that go beyond a normal citizen's experience.
+
+**Keep small:** This works best as a one-time "welcome to Night City" moment and an occasional environmental hazard, not a recurring combat mechanic.
