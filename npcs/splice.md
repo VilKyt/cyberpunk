@@ -93,3 +93,15 @@ Splice is a fringe resource — she doesn't operate in the city proper. But she 
 - [ ] Trust upgraded to Useful
 - [ ] Splice's deletion is noticed — shop moves
 - [ ] Voodoo Boys introduction brokered
+
+---
+
+## The Tattoo — Act 2 Hook
+
+The circuit-trace tattoos are **abjuration wards**. Splice doesn't know this — she had them done at a parlor in Watson and was told they were a "signal ward," something that would reduce interference with her cyberware. They look like tech. They are not.
+
+**What they actually do:** shield her from the passive soul-drain running through Night City's population. Her calibration equipment reads her the same way it reads the party — soul-clear. She has assumed this is a hardware artefact and has not connected it to the ink.
+
+**The Hook — The Tattoo Parlor:** whoever the artist is, they understood abjuration well enough to encode it in ink that holds for at least eight years in a magic-dead city. They may know considerably more about the Soulkiller network than anyone else the party can reach. Splice can point them there — she remembers the shop clearly.
+
+> *GM note: the parlor artist is a lead, not an exposition source. They know something is wrong with the city's soul. They don't have the full picture. But they've been watching.*
