@@ -28,6 +28,8 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 | The Archivist | Ancient AI signal in the Badlands | Planted |
 | Rook's theory | She knew something was here | Unresolved |
 | The grandmother's story | Someone warned people away for generations | Ghost of key NPC |
+| Splice's tattoo | Abjuration ink shields her from the passive drain — she doesn't know why | Live |
+| The Tattoo Parlor | The artist who made the ward understands soul-drain; find them in Watson | Hook planted |
 
 ---
 
@@ -40,3 +42,4 @@ By the end of Act 1 the party should have:
 - [ ] Heard the first whisper of the key NPC (the woman in the pocket dimension)
 - [ ] Had their first encounter with the corruption in Arasaka personnel
 - [ ] Received a lead on the Archivist
+- [ ] Met Splice and noticed the tattoo — lead to the Watson parlor planted
