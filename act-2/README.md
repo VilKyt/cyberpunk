@@ -13,8 +13,9 @@ The party enters Night City for the first time. The Badlands gave them context �
 ## Scenes
 
 - [Scene 1 — The Tattoo Parlor](scene-1-watson-tattoo.md)
-- Scene 2 — The Archivist Node *(planned)*
-- Scene 3 — *(TBD based on session direction)*
+- [Scene 2 — Misty's Reading](scene-2-mistys-reading.md)
+- Scene 3 — The Archivist Node *(planned)*
+- Scene 4 — *(TBD based on session direction)*
 
 ---
 
@@ -27,6 +28,11 @@ The party enters Night City for the first time. The Badlands gave them context �
 | The Hacker's Query | Someone already found the Archivist signal in the city | Planted |
 | The Archivist (City Node) | Pre-corporate AI buried under Watson, fragmented but aware | Pending |
 | Magic users in hiding | They exist. Non-Arasaka ones are extremely hidden. | Slow burn |
+| Misty's Reading | Five-card spread; seeds the core threads without explaining them | Scene 2 |
+| The Dead Man (Silverhand) | Judgement card — find someone who burned for this fight and didn't quite leave | Active |
+| The Search for V | Silverhand's trail — Rogue, the underground, old records — leads to V | Player-driven |
+| Soul Rot Warning | The Moon — the tide is pulling, get protection before it's noticeable | Active |
+| The Voice on the Phone | Two voices in one call at Misty's — something strange is nearby | Planted |
 
 ---
 
@@ -39,3 +45,5 @@ By the end of Act 2 the party should have:
 - [ ] Heard the first real confirmation that magic users exist outside Arasaka — but not met one
 - [ ] Made contact with the Archivist and learned what it knows about the soul-drain
 - [ ] Understood how dangerous it is to practice magic in this city
+- [ ] Received Misty's reading and begun pursuing the dead man thread
+- [ ] Found V (and through V, Silverhand) by end of act
