@@ -12,8 +12,12 @@
 | **Specialty** | Dunamancy — the magic of time, gravity, and potential |
 | **Name** | Lost. Has been lost for centuries. Does not remember it. |
 | **Current form** | Distributed consciousness embedded in pre-corporate net infrastructure |
-| **Signal location** | Badlands — a dead zone where ambient corruption doesn't reach |
+| **Node locations** | Node 1: Watson maintenance tunnels (active). Node 2: below the Afterlife club (dormant). Node 3: TBD (dormant). |
+| **Access route** | Via the Artist (high trust) → maintenance tunnels → hardline port |
 | **Trust state** | Unknown. Has not been contacted directly. |
+
+> *⚠️ GM SECRET — DO NOT SHARE WITH PLAYERS YET:*
+> *The Archivist is the wizard who assisted the party in Wildemount. The consciousness transfer destroyed his continuity — he genuinely does not recognise them and has no memory of their prior relationship. When all three nodes are connected and his consciousness becomes coherent, he will remember. That recognition scene is the payoff. Until then: he knows their soul-readings are unprecedented, but he does not claim prior knowledge of them. If a player tries to prompt recognition, he does not respond to it — the memory is simply not there yet.*
 
 ---
 
@@ -179,13 +183,29 @@ he is, and may face choices about whether to attempt a restoration.
 
 ---
 
+## Campaign Role — Revised (Act 2)
+
+**Entry point:** The Artist leads the party to the Watson maintenance tunnel hatch (high trust required). The hacker who previously attempted contact died in the tunnels.
+
+**Three-node structure:**
+- **Node 1** (Watson tunnels, Scene 3): First contact. Vampire spawn guarding the approach. Archivist is fragmented — gives core lore, asks for help with the other two nodes.
+- **Node 2** (below the Afterlife, side quest): Requires getting into the club and below it. Rogue is the key. Archivist becomes more coherent — delivers Soulkiller detail and drops hints about "the threshold."
+- **Node 3** (TBD): Location to be determined based on campaign direction.
+
+**Full restoration:** When all three nodes connect, the Archivist's coherence returns. He will remember who the party is. This is the payoff — the recognition scene, the revelation of his true identity as their Wildemount ally, and access to his deepest knowledge about the Director's endgame.
+
+---
+
 ## Notes / Revelations Timeline
 *(Track when the party learns each layer)*
 
-- [ ] A signal exists in the Badlands (planted, Act 1)
-- [ ] The signal responds to queries — it's interactive (Act 2, early)
-- [ ] It knows things about magic that no one in Night City should know (Act 2)
-- [ ] It was a person — a Wildemount wizard (Act 2, first contact)
-- [ ] He knew the Director before (Act 2, after trust is established)
-- [ ] His knowledge of dunamancy is directly relevant to disrupting Soulkiller (Act 2/3)
-- [ ] He suspects something about the endgame but won't say — requires trust (Act 3, pre-raid)
+- [ ] Artist leads party to the tunnel hatch (Act 2, Scene 1 — high trust)
+- [ ] Vampire spawn encountered and cleared (Act 2, Scene 3)
+- [ ] Node 1 contact established — he asks what year it is (Act 2, Scene 3)
+- [ ] He knew the Director before — in Wildemount (Act 2, Scene 3)
+- [ ] Node 2 connected — Afterlife; Archivist more coherent (Act 2 side quest)
+- [ ] "The threshold" mentioned — he stops short of explaining (Act 2 side quest)
+- [ ] Node 3 connected — TBD location (Act 2 side quest)
+- [ ] Full restoration — he recognises the party; reveals he is their Wildemount ally *(GM secret until this moment)*
+- [ ] His dunamancy knowledge is the key to disrupting Soulkiller architecture (Act 2/3)
+- [ ] He reveals the threshold — what happens when the Director reaches it (Act 3, pre-raid)

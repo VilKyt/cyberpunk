@@ -15,8 +15,13 @@ The party enters Night City for the first time. The Badlands gave them context �
 - [Scene 1 — The Tattoo Parlor](scene-1-watson-tattoo.md)
 - [Scene 1B — The Watson Alley](scene-1b-the-watson-alley.md) *(transition; Arasaka surveillance provocation)*
 - [Scene 2 — Misty's Reading](scene-2-mistys-reading.md)
-- Scene 3 — The Archivist Node *(planned)*
-- Scene 4 — *(TBD based on session direction)*
+- [Scene 3 — The Maintenance Tunnels](scene-3-the-maintenance-tunnels.md) *(Artist leads them in; vampire spawn; Archivist Node 1)*
+
+## Side Quests (Archivist Nodes)
+*Required to fully restore the Archivist. Can be run in any order after Scene 3.*
+
+- [Node 2 — The Afterlife](side-quests/quest-node-2-the-afterlife.md) — Get into the club, get below it. Rogue is the key. Archivist becomes more coherent.
+- Node 3 — TBD *(location to be decided — Pacifica/Voodoo Boys, old Militech infrastructure, or Badlands fringe)*
 
 ---
 
@@ -48,3 +53,7 @@ By the end of Act 2 the party should have:
 - [ ] Understood how dangerous it is to practice magic in this city
 - [ ] Received Misty's reading and begun pursuing the dead man thread
 - [ ] Found V (and through V, Silverhand) by end of act
+- [ ] Reached the Archivist — Node 1 active (Watson tunnels)
+- [ ] Restored Node 2 (Afterlife) and made contact with Rogue
+- [ ] Restored Node 3 (TBD)
+- [ ] Full Archivist restoration — recognition scene

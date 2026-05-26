@@ -69,8 +69,16 @@ Trust is earned through straight dealing, demonstrated competence, or shared exp
 ### High Trust
 *(After something significant — the party protects them, shares real information, or demonstrates that they are as soul-clear as Splice)*
 - They'll share the dead-drop address for the contact who gave them the formula
-- They'll give the party the **Archivist query format** — a specific string, a port, a handshake protocol. They describe it as: *"A hacker came in six months ago. Weird energy. Said there's something old under the city that's still listening. Left this in case I ever needed it. I don't know what it is. I've been too scared to use it alone."*
 - They'll quietly offer the party the warded ink, with this caveat: *"If something is looking for you specifically, this won't hide you from it. It just means the city stops passively eating you."*
+- They'll offer to take the party to the Archivist node themselves.
+
+The hacker who came six months ago left more than a query format — they described the location: maintenance tunnels at the edge of Watson, pre-corporate infrastructure, a hardline port the hacker found but couldn't use alone. The hacker said the format was for *"something that's been waiting for the right question."* Then the hacker disappeared into the net and never came back.
+
+The Artist has had the information for six months and hasn't moved on it. They say so plainly:
+
+> *"I went as far as the access hatch. Twice. Both times I couldn't make myself go further. There's something wrong in those tunnels — not corp wrong. Something else. I don't know how to explain it."*
+
+They will take the party to the hatch. They will not go in with them.
 
 ---
 
@@ -107,7 +115,7 @@ Whether it's routine this time is up to the GM.
 | The Artist's trust | Earnable; valuable for later |
 | The warded ink (offered) | Available at high trust or by paying well |
 | Dead-drop address for the contact | High trust only |
-| Archivist query format | High trust only — the real prize of this scene |
+| Guide to the tunnel hatch | High trust only — replaces the bare query format handoff |
 | Confirmation magic exists outside Arasaka | Medium trust — framed as dangerous rumour, not fact |
 
 ---
@@ -117,7 +125,7 @@ Whether it's routine this time is up to the GM.
 | Thread | Hook | Status |
 |---|---|---|
 | The Ink Source | Dead-drop for vanished magic user — alive? hiding? | Planted |
-| The Archivist Node | Query format in hand — now they have to find the port | Active |
+| The Maintenance Tunnels | Artist leads them to the hatch — something wrong inside | Active (high trust) |
 | The Protected Network | 15–20 soul-clear people in Watson, unknown to each other | Slow burn |
 | Magic in hiding | It exists. People have died for showing it. | Confirmed, dangerous |
 | Drone sweep | Was it routine? Does someone know they're here? | GM discretion |
