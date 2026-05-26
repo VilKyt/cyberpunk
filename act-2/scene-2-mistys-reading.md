@@ -261,7 +261,12 @@ The Tower in this reading is not a challenge to overcome. It is the moment the i
 
 And that is very cyberpunk. The tragedy in Night City is never that evil appears. It is that the system was doomed long before the protagonists arrived.
 
-> *GM note: whether the Tower ever surfaces is your decision. If the party somehow gets to see it — if trust reaches a point where Misty tells them — it reframes everything. The fight is not "save the city." The city cannot be saved. The fight is something else. What that something else is: work it out in play.*
+> *GM note — what the Tower actually means:*
+> *The collapse is not metaphor. It is the Soulkiller network reaching full deployment — the Director flipping the switch on a continental-scale soul-harvesting event. Every person in Night City who has ever used an Arasaka neural interface product, every citizen touched by the ambient drain, every Secure Your Soul subscriber — harvested simultaneously. Mass death or mass enslavement depending on whether the extraction holds at scale. Night City is the test case. If it works here, it scales globally.*
+>
+> *The city cannot be saved from this in any conventional sense. The infrastructure is already in place. The drain has been running for decades. The question the party is actually fighting over is not "will the Tower fall" but "what exists on the other side of it." Whether the Director wins completely — or whether something survives, escapes, or finds a way through — is the real shape of the campaign.*
+>
+> *Whether the Tower ever surfaces to the players is your decision. If Misty eventually tells them — if trust reaches that point — it reframes everything. The fight changes shape. Work it out in play.*
 
 ---
 

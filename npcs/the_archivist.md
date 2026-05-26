@@ -194,18 +194,34 @@ he is, and may face choices about whether to attempt a restoration.
 
 **Full restoration:** When all three nodes connect, the Archivist's coherence returns. He will remember who the party is. This is the payoff — the recognition scene, the revelation of his true identity as their Wildemount ally, and access to his deepest knowledge about the Director's endgame.
 
+**The long game — temporal displacement (Act 3/4):**
+
+The Archivist's specialty is dunamancy: the manipulation of time, gravity, and potential. His most significant remaining capability — one he has not used since the transfer, one he is not certain he still has — is large-scale temporal displacement. Not time travel in the reversible sense. A one-way translation forward: moving the party out of the present moment entirely and depositing them in a future point.
+
+Why this matters: the Soulkiller deployment — the Tower — may be unstoppable from within the present. The Director's infrastructure is already in place. The drain has been running for decades. The window to disrupt it from the inside may close before the party can reach it.
+
+The Archivist's theory, which he will share only at full restoration and only if the party has demonstrated they understand the stakes: *there may be something in the far future that makes stopping this possible in a way that is not currently possible. A vantage point. A resource. Something that survived, or something that was built because the party was there.*
+
+He does not know what it is. He knows the structure of potential — and the potential of this particular future branches in ways he cannot fully read from here. He knows only that the branch where the party goes forward is one of the very few where the outcome is not already closed.
+
+The displacement itself: he can do it, he believes, with all three nodes active and the party physically present at one of them. It will cost him something — he does not say what. He will not discuss the cost unless directly pressed, and even then he will be imprecise about it.
+
+**The destination:** Far future. Spaceships. A world shaped by whatever happened here. The culmination of this thread is late Act 3 or Act 4 — build it out when the shape of the campaign makes the landing point clearer.
+
 ---
 
 ## Notes / Revelations Timeline
 *(Track when the party learns each layer)*
 
-- [ ] Artist leads party to the tunnel hatch (Act 2, Scene 1 — high trust)
+- [ ] Artist leads party to Judy at Moxie's (Act 2, Scene 1 — high trust)
+- [ ] Judy gives tunnel hatch location (Act 2, Scene 1C)
 - [ ] Vampire spawn encountered and cleared (Act 2, Scene 3)
 - [ ] Node 1 contact established — he asks what year it is (Act 2, Scene 3)
 - [ ] He knew the Director before — in Wildemount (Act 2, Scene 3)
 - [ ] Node 2 connected — Afterlife; Archivist more coherent (Act 2 side quest)
 - [ ] "The threshold" mentioned — he stops short of explaining (Act 2 side quest)
-- [ ] Node 3 connected — TBD location (Act 2 side quest)
+- [ ] Node 3 connected — Militech facility (Act 2 side quest)
 - [ ] Full restoration — he recognises the party; reveals he is their Wildemount ally *(GM secret until this moment)*
 - [ ] His dunamancy knowledge is the key to disrupting Soulkiller architecture (Act 2/3)
-- [ ] He reveals the threshold — what happens when the Director reaches it (Act 3, pre-raid)
+- [ ] He reveals the threshold — what the Soulkiller deployment actually means (Act 3, pre-raid)
+- [ ] He proposes temporal displacement — the far future option (Act 3/4)
