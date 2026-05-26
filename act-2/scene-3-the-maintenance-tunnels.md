@@ -11,31 +11,23 @@ Watson sits on top of itself. The district visible above street level is two hun
 
 **Why the Archivist has a node here:** The pre-corporate infrastructure was laid before Arasaka's network existed. The Archivist embedded fragments of himself in servers that were already old when Night City was built — hardware so outdated it doesn't appear in modern network inventories. It is not hidden so much as simply absent from the world that looks for things. He has been running in the dark under Watson for decades.
 
-**Why the vampire spawn are here:** Three of them. They drifted in from somewhere — the party will never know exactly where or when. What the Archivist knows, and will share if asked: they arrived roughly forty years ago, following the warmth of his node's residual signal. He has been watching them. He cannot do anything about them. They have been feeding on whoever enters the tunnels — maintenance workers who went missing, vagrants who found the hatch, the hacker who gave the Artist the query format and never resurfaced.
+**Why the vampire spawn are here:** Three of them. They drifted in from somewhere — the party will never know exactly where or when. What the Archivist knows, and will share if asked: they arrived roughly forty years ago, following the warmth of his node's residual signal. He has been watching them. He cannot do anything about them. They have been feeding on whoever enters the tunnels — maintenance workers who went missing, vagrants who found the hatch, and most recently **Kaz**, the netrunner who found the node but didn't make it back out.
 
 > *The hacker's remains are in the tunnels. The party will find them. They still have gear.*
 
 In Night City, there is no cultural framework for vampire spawn. They are a biological impossibility, an unknown hostile organism, something the corp databases would classify as a mutation or escaped experiment if anyone had survived to file the report. The party's Wildemount experience is the only reason they will know what they are looking at. That recognition — *we have seen this before, we know how this works* — is one of the few moments in this city where their displacement is an advantage rather than a liability.
 
-**The node itself:** A server rack from the pre-corporate era, hardwired into the tunnel's original cable infrastructure. Still running. The indicator lights have been on for longer than anyone alive has been alive. The hardline port uses a connector standard that hasn't been manufactured in sixty years. Modern netrunner gear needs an adaptor, which the dead hacker happens to have.
+**The node itself:** A server rack from the pre-corporate era, hardwired into the tunnel's original cable infrastructure. Still running. The indicator lights have been on for longer than anyone alive has been alive. The hardline port uses a connector standard that hasn't been manufactured in sixty years. Modern netrunner gear needs an adaptor — which Kaz's rig has, recovered from their remains.
 
 ---
 
-## The Artist at the Hatch
+## The Hatch
 
-The access hatch is in an alley behind a water recycling facility at Watson's southern edge — a heavy steel plate in the ground, slightly warm to the touch, a combination lock that the Artist knows the sequence to. The hacker gave them the combination along with everything else, six months ago.
+The access hatch is in an alley behind a water recycling facility at Watson's southern edge — exactly where Judy said it would be. A heavy steel plate in the ground, slightly warm to the touch. The combination lock takes Kaz's code without resistance.
 
-The Artist opens it. A smell rises: dust, old metal, something organic underneath that doesn't have a clean name.
+A smell rises when the hatch opens: dust, old metal, something organic underneath that doesn't have a clean name.
 
-They look down. Then at the party. Then back down.
-
-> *"Whatever the hacker said was down here — the thing that's still listening — I hope you find it. I hope it's worth it."*
-
-They hand over the query format — a small piece of card with a string of characters written in neat, cramped handwriting. The hacker's handwriting, not the Artist's.
-
-> *"They never came back. I should have told you that before we got here."*
-
-They don't go in. They replace the hatch when the party descends. They will be at the shop if the party comes back up.
+The party goes in alone. Nobody is waiting for them at the top when they come back up.
 
 ---
 
@@ -67,9 +59,11 @@ Anyone with Wildemount experience: *they know this shape.* The posture, the pall
 - One spawn will attempt to drag a downed character deeper into the tunnel — toward the welded doors. Stopping this is a priority.
 - They do not flee. They have nowhere to go and they are hungry.
 
-**The dead hacker:** halfway through or immediately after, the party finds the remains. Recent enough to identify as a person, not recent enough to be intact. The hacker's rig is still functional — military-grade case, hardened. Among their saved files: notes on the Archivist signal, partial transcripts of attempted queries that never completed, and the adaptor for the hardline port. The notes are fragmented and technical, but one line is legible in full:
+**Kaz:** halfway through or immediately after the encounter, the party finds the remains. Recent enough to identify as a person, not recent enough to be intact. Kaz's rig is still functional — military-grade case, hardened. Among the saved files: notes on the Archivist signal, partial transcripts of attempted queries that never completed, and the adaptor for the hardline port. The notes are fragmented and technical, but one line is legible in full:
 
 > *"It knows things that can't be in any database. It asked me what year it was. I don't think it was malfunctioning."*
+
+The party now knows what happened to Kaz. Judy is waiting for that answer.
 
 ---
 
@@ -174,23 +168,17 @@ The indicator lights on the server rack remain on. Green. Steady.
 
 The tunnels are clear. The spawn don't regenerate — at least, not tonight.
 
-The Artist is waiting at the hatch when the party surfaces. They look at whoever comes up first for a long moment.
+The party surfaces alone. Watson noise comes back immediately — traffic, neon, the city indifferent to what just happened below it. The hatch closes behind them.
 
-> *"You found it."*
+**Back to Moxie's:** Judy is waiting. She already suspects from the party's faces before anyone speaks. She listens to what happened — the spawn, Kaz's remains, what was found. She is quiet through it.
 
-Not a question. Something in the party's face.
+> *"They found what they were looking for at least."*
 
-> *"Was the hacker—"*
+A beat.
 
-They don't finish the question. The answer is on the party's face too.
+> *"That's something."*
 
-> *"Right."*
-
-They close the hatch. They stand there for a moment.
-
-> *"Is it — is it actually something? Worth the trouble?"*
-
-This is the Artist asking because they need to know if the risk they took — trusting these people, leading them here, thinking about the hacker — was for something. The party can answer however they choose.
+She means it. She needs a shape for things, even when the shape is bad. The debt she owes the party is now real, and she treats debts as real.
 
 ---
 
@@ -201,10 +189,10 @@ This is the Artist asking because they need to know if the risk they took — tr
 | The Archivist — Node 1 active | First contact established; full restoration requires two more nodes | Active |
 | Node 2 — The Afterlife | Get into the club, get below it; Rogue is the key | Active |
 | Node 3 — TBD | Location to be determined | Planted |
-| The Dead Hacker | Who were they? Who sent them? The notes suggest more investigation | Slow burn |
+| Kaz — answered | Party tells Judy what happened; she knows; her debt is real | Resolved → ongoing |
+| Kaz's notes | Judy has backups of Kaz's research — will share when the moment is right | Slow burn |
 | The Director confirmed | The Archivist knew him in Wildemount — the lich is real and named | Confirmed |
 | The Spawn | Where did they come from? Are there more? Are they connected to anything? | Slow burn |
-| The Artist — after | They know the hacker is dead. They know this is real. Their trust is either cemented or broken depending on how the party handles that moment. | Table-dependent |
 | Full restoration | When all three nodes connect — the Archivist will remember. | Delayed payoff |
 
 ---

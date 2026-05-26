@@ -9,11 +9,13 @@
 
 Moxie's is the Moxes' territory — a club near the Kabuki border of Watson that operates as bar, gathering space, and de-facto safe house for the gang that protects Night City's sex workers. It is not hostile to outsiders but it is not welcoming by default. The Moxes assess everyone who walks in: threat, motive, whether they're going to be a problem.
 
-**The proprietor** runs the floor — they have been here long enough that the regulars treat them as permanent as the furniture. They are protective of their people, especially Judy, who is trusted and useful and not someone they let just anyone access. Getting to Judy means getting past the proprietor's read of the party.
+**The proprietor** runs the floor — protective of their people, especially Judy, who is trusted and useful and not someone they let just anyone access.
 
-**Judy Alvarez** works out of the basement — a BD (braindance) tech setup she runs freelance from a space the Moxes let her use. She does legitimate BD editing work and occasionally less legitimate things she doesn't advertise. She knew the hacker — not closely, but they had worked together on equipment sourcing and she had helped them map the Watson underground infrastructure months ago. When the hacker didn't come back, she noticed. She hasn't talked about it.
+**Judy Alvarez** works out of the basement — a BD (braindance) tech setup she runs freelance from a space the Moxes let her use. She knew Kaz reasonably well — they collaborated on equipment sourcing and Judy helped them map sections of Watson's underground infrastructure over several months. Before Kaz went into the maintenance tunnels, they gave Judy the hatch location and access code as a backup. *"In case I don't come back out, someone should know where I went."*
 
-She is not going to be easy to reach. She is going to be worth it.
+That was a while ago. Kaz hasn't come back. Judy hasn't gone to check — she's not sure she wants to know. She's been sitting with it.
+
+The party is the first people who have shown up asking about Kaz. She will give them the location and code. She wants them to find out what happened.
 
 ---
 
@@ -23,14 +25,10 @@ The Moxes at the door are assessing. They're not aggressive. They're reading.
 
 **What gets the party through to the proprietor:**
 - Mentioning the Artist by name (the Artist is known here — one of the protected network, though Judy doesn't know that's what it is)
-- Demonstrating they're not corp — not just saying it, showing it in how they move, how they talk, what they don't have on them
-- Rook's name carries some weight on the Watson fringe if anyone thinks to use it
+- Demonstrating they're not corp — not just in what they say, but in how they move and what they don't have on them
+- Rook's name carries some weight on the Watson fringe
 
-**The proprietor** will listen to why the party wants to see Judy. They will not take "we need information" as sufficient. They want to know: what happened to the person Judy was working with? Because the proprietor noticed they stopped coming around too, and they've been waiting for someone to come ask about it.
-
-If the party is honest — the hacker is dead, they found out in the process of following the same trail — the proprietor's expression does something controlled and brief. Then:
-
-> *"I'll tell her you're here. She'll decide if she wants to come up."*
+The proprietor will listen to why the party wants to see Judy. They want a reason that's better than "we need information." The honest one — they're following Kaz's trail — is enough. The proprietor noticed Kaz stopped coming around too. They'll pass the message down.
 
 Judy comes up.
 
@@ -38,49 +36,59 @@ Judy comes up.
 
 ## Judy
 
-She's smaller than the party might expect. Precise hands — BD tech requires that. She looks at the party the way someone looks at a problem they've been holding for a while and are not sure is about to get better or worse.
+Precise hands. BD tech requires that. She looks at the party the way someone looks at a situation they've been hoping would resolve itself and now clearly won't.
 
-> *"They said you were asking about [the hacker's name]. Past tense. That's how they said it."*
+> *"You're asking about Kaz."*
 
-She already knows what past tense means. She has known something was wrong for weeks.
+Not a question.
 
-**What she gives, and when:**
+> *"They went into the maintenance tunnels — old Watson infrastructure, southern edge, alley behind the water recycling facility. That was a while back. I have the hatch location. They gave me the access code before they went in."*
 
-She doesn't make them work for it the way the Artist did. The hacker is dead, she's been carrying this alone, and the party showing up is either the worst thing or the beginning of something being done about it. She makes that calculation fast.
+She produces a folded piece of paper. The hatch address and a six-digit combination, written in Kaz's handwriting.
 
-> *"They were heading into the maintenance tunnels — old Watson infrastructure, pre-corporate layer. There's an access point about six blocks south of here, in an alley behind the water recycling facility. Combination lock on the hatch. I know the combination — they gave it to me as a backup."*
+> *"They said there was something down there that was still running. Old hardware. Something that responded to queries — they'd been working on getting the format right for weeks."*
 
 She gives it to them.
 
-> *"They said there was something down there that was still running. Old hardware, something that responded to queries. They'd been trying to make contact for weeks before they finally got the query format right."*
+> *"I want to know what happened. That's what I'm trading you this for. You go in, you find out — you come back and tell me."*
 
-> *"They said it asked them what year it was."*
+She is direct about it because she has been carrying the uncertainty for long enough that she would rather know something bad than keep not knowing.
 
-She's quiet for a moment.
+**She doesn't press for reassurance.** She already suspects it isn't good. She just needs someone to go look.
 
-> *"They didn't come back from the last trip in. I checked the hatch three days later. It was closed. I didn't open it."*
+**One more thing**, if the conversation continues:
 
-**What she needs:**
+> *"The query format Kaz was using — they said it came from something that understood the underground in a way that wasn't just technical. Like it had been down there. Like it had been there a long time."*
 
-She wants to know what happened. If the party can tell her — when they come back, if they come back — she'll owe them that debt. She is precise about debts.
+She filed that detail. She doesn't know what it means. She offers it in case the party does.
 
-She also mentions, if the party asks or if the conversation goes long enough:
+---
 
-> *"The query format they were using — the source of it, originally, was someone who understood the underground infrastructure in a way that wasn't just technical. Like they'd been down there. Like they'd been there for a long time."*
+## Returning to Judy — After the Tunnels
 
-She can't explain this further. She just noticed it. She files things.
+When the party comes back up and returns to Moxie's, Judy already knows from their faces before they speak.
+
+She listens to what happened — the spawn, Kaz's remains, what they found. She is quiet through it. When they finish:
+
+> *"They found what they were looking for at least."*
+
+A beat.
+
+> *"That's something."*
+
+She means it. She's the kind of person who needs a shape for things, even when the shape is bad.
+
+**What changes after this:** Judy's debt to the party is real and she treats it as such. She doesn't perform gratitude — she files it. The next time the party needs something in her area of capability, she answers.
 
 ---
 
 ## Judy as a Continuing Contact
 
-She is not a one-scene NPC. She has:
+- **BD expertise** — braindance recordings, archived footage, finding people through BD distribution networks
+- **Watson underground knowledge** — she has been mapping the city's hidden infrastructure for years. The maintenance tunnels aren't the only thing she knows about.
+- **The Moxes connection** — plugged into a network of people operating below the city's visible systems
 
-- **BD expertise** — if the party ever needs to access braindance recordings, analyse archived footage, or find someone through BD distribution networks, Judy is the resource
-- **Watson underground knowledge** — she has been mapping the city's hidden infrastructure for years as a side project. The maintenance tunnels aren't the only thing she knows about
-- **The Moxes connection** — through the club, through the proprietor, she is plugged into a network of people who operate below the city's visible systems
-
-**Long-term hook:** Whatever the hacker was piecing together about the Archivist — the notes, the partial query transcripts — Judy has copies. She backed them up. She will share them at the right moment, which is not the first meeting.
+**Long-term hook:** Kaz's notes on the Archivist — partial query transcripts, infrastructure maps, observations that don't quite make sense yet — Judy backed them up before Kaz's last run. She'll share them when the moment is right. Not the first meeting. After the party comes back with news of what happened to Kaz, she starts thinking about whether what Kaz found is worth continuing.
 
 ---
 
@@ -88,11 +96,11 @@ She is not a one-scene NPC. She has:
 
 | Thread | Hook | Status |
 |---|---|---|
-| The tunnel hatch | Location and combination — the path to Scene 3 is open | Active |
-| The hacker's death | Judy knows. She wants to know what happened. | Open |
+| The tunnel hatch | Location and code in hand — Scene 3 is open | Active |
+| What happened to Kaz | Party promises to find out — answered in Scene 3 | Open → resolved |
 | Judy as contact | BD tech, underground maps, Moxes network | Planted |
-| The hacker's backed-up notes | She has copies — will share later | Slow burn |
-| The proprietor | They're protective. If the party handles this well, the Moxes are not unfriendly | Table-dependent |
+| Kaz's backed-up notes | She has copies — will share after the party returns with news | Slow burn |
+| The proprietor | Moxes are not unfriendly if the party handles this well | Table-dependent |
 
 ---
 

@@ -72,9 +72,9 @@ Trust is earned through straight dealing, demonstrated competence, or shared exp
 - They'll quietly offer the party the warded ink, with this caveat: *"If something is looking for you specifically, this won't hide you from it. It just means the city stops passively eating you."*
 - They don't know exactly where the node is — but they know who does.
 
-The hacker came to them six months ago asking about the ink, left the query format, and described heading into Watson's maintenance infrastructure to find something old that was still listening. Then disappeared. The Artist doesn't know what happened. But the hacker mentioned a contact before they left — someone they worked with on braindance equipment in Watson.
+A netrunner named **Kaz** came to them some time back asking about the ink, left the query format, mentioned heading into Watson's maintenance infrastructure to find something old that was still listening. Then stopped coming around. The Artist doesn't know what happened to them. But Kaz mentioned a contact before they left — someone they worked with on braindance equipment and underground mapping in Watson.
 
-> *"Her name's Judy. She's good people, does BD tech work out of Moxie's basement — the Moxes club, down near the Kabuki border. The hacker said if anything went wrong, Judy would know where they were headed."*
+> *"Her name's Judy. She's good people, does BD tech work out of Moxie's basement — the Moxes club, down near the Kabuki border. Kaz gave her the location details as backup, in case anything went sideways."*
 
 They'll give the party directions to Moxie's. They will not accompany them.
 
