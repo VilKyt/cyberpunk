@@ -25,15 +25,15 @@ Getting there requires:
 
 ## Getting In
 
-The Afterlife is not impossible to enter. It is meritocratic in the Night City sense: reputation, money, or a compelling reason. The party coming in from the Badlands fringe with no Night City track record starts near the bottom of that list.
+The Afterlife is not impossible to enter. It is meritocratic in the Night City sense: reputation, money, or a compelling reason. The party arriving from the Badlands fringe with no Night City track record starts near the bottom of that list.
 
-**Routes in:**
+**The primary route — notoriety:** Complete 2 of the 3 gigs in [Gigs — Afterlife Access](gigs-afterlife-access.md). Word travels. The door staff will have heard the party's name before they arrive. Entry becomes a professional courtesy rather than a favour. Complete all 3 and the bartender has a drink poured before they reach the bar.
 
-**Via Rogue directly:** If the party can get a message to her — through a fixer, through a contact who knows someone, through demonstrated usefulness that has reached her ear — she will grant entry for a meeting. She is curious about things that don't fit the pattern. The party, if they've been making noise in Watson, might qualify.
+**Alternative routes (if the party skips the gigs):**
 
-**Via the notoriety system:** If the party has accumulated enough visible action in the city — jobs, incidents, things that have been noticed and talked about — the door staff will have heard of them. Entry becomes a professional courtesy.
+**Via Rogue directly:** If the party can get a message to her — through a fixer, through a contact who knows someone — she will grant entry for a meeting if they can demonstrate they know something worth her time. A cold approach with no track record is harder but not impossible.
 
-**Via a contact:** Rogue's current bartender knows people. The Afterlife's regulars talk. If the party knows anyone with Night City credibility who can vouch for them — or if they've done work for someone who does — that works.
+**Via a contact:** Rogue's bartender knows people. The Afterlife's regulars talk. Anyone with Night City credibility who can vouch for the party works as a bypass — Judy, if the party has established enough trust at Moxie's, can make a call.
 
 ---
 

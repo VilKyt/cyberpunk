@@ -14,14 +14,16 @@ The party enters Night City for the first time. The Badlands gave them context �
 
 - [Scene 1 — The Tattoo Parlor](scene-1-watson-tattoo.md)
 - [Scene 1B — The Watson Alley](scene-1b-the-watson-alley.md) *(transition; Arasaka surveillance provocation)*
+- [Scene 1C — Moxie's Club](scene-1c-moxies-club.md) *(find Judy; she gives the tunnel hatch location)*
 - [Scene 2 — Misty's Reading](scene-2-mistys-reading.md)
-- [Scene 3 — The Maintenance Tunnels](scene-3-the-maintenance-tunnels.md) *(Artist leads them in; vampire spawn; Archivist Node 1)*
+- [Scene 3 — The Maintenance Tunnels](scene-3-the-maintenance-tunnels.md) *(vampire spawn; Archivist Node 1; two more nodes requested)*
 
-## Side Quests (Archivist Nodes)
-*Required to fully restore the Archivist. Can be run in any order after Scene 3.*
+## Side Quests (Archivist Nodes + Access)
+*Run in any order after Scene 3. 2 of 3 notoriety gigs unlock the Afterlife.*
 
-- [Node 2 — The Afterlife](side-quests/quest-node-2-the-afterlife.md) — Get into the club, get below it. Rogue is the key. Archivist becomes more coherent.
-- Node 3 — TBD *(location to be decided — Pacifica/Voodoo Boys, old Militech infrastructure, or Badlands fringe)*
+- [Gigs — Afterlife Access](side-quests/gigs-afterlife-access.md) — Race, warehouse requisition, killer capture. Build notoriety to get into the Afterlife.
+- [Node 2 — The Afterlife](side-quests/quest-node-2-the-afterlife.md) — Get into the club, get below it. Rogue knows about V and Silverhand. Archivist more coherent; drops "the threshold."
+- [Node 3 — Militech Facility](side-quests/quest-node-3-militech.md) — Heavy defences (drones, soldiers, mech). Deal with Militech or punch/stealth through alone. Full restoration triggers here.
 
 ---
 

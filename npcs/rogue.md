@@ -51,9 +51,15 @@ She has seen enough of Night City to know when something doesn't
 fit, and the party doesn't fit at all. Whether that makes them
 useful or dangerous depends on what they do next.
 
-She knows Silverhand. History, not current status. When Silverhand
-comes back into the picture, she and he will have things to work
-out in front of the party.
+She knows Silverhand — not just history. V told her about the chip.
+She knows Silverhand's engram is running inside V's head, overwriting
+V's neural patterns, and that V is dying because of it. She has been
+sitting with this information for weeks, doing nothing with it except
+watching V move through the city like a person running out of road.
+
+When the party arrives looking for "the ghost who didn't finish his
+fight" — however they phrase it — she will go very still.
+She already knows exactly who they mean.
 
 ### The Raid: She Plans It, She Leads the Ground Op
 The assault on Arasaka Tower is her operation as much as
@@ -86,6 +92,10 @@ is an Act 3 thread.
 - That soul-drain is a literal mechanism, not a metaphor
 - What the Soulkiller actually does (she thinks it's a
   consciousness-destruction weapon, which is partially correct)
+- Why the Silverhand extraction worked when every previous test failed
+  — this has been the question she has turned over for thirty years.
+  She suspects the answer is connected to whatever Arasaka was doing
+  in the 2023 tower that she never fully understood. She's right.
 
 ---
 
