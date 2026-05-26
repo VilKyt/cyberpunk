@@ -59,6 +59,14 @@ Anyone with Wildemount experience: *they know this shape.* The posture, the pall
 - One spawn will attempt to drag a downed character deeper into the tunnel — toward the welded doors. Stopping this is a priority.
 - They do not flee. They have nowhere to go and they are hungry.
 
+**What they carry:** Two of the three spawn have something on them that doesn't fit the tunnels. A small hexagonal chip — matte black, old Night City manufacture, worn smooth from handling. The plastic has gone slightly yellow at the edges; this is thirty or forty years old at minimum. One face is blank. The other face, in small text along the outer edge: *CLUB BLOOD — NOCTURNAL TIER.*
+
+No club name in the city's current registry. Whatever it was, it wasn't registering on corporate systems — or someone made sure it didn't.
+
+The third spawn has a broken lanyard around its neck where a chip used to be.
+
+> *These creatures were something else once. Something that could hold a membership card, could be selective about where it went. The soul-drain didn't make them. It unmade them.*
+
 **Kaz:** halfway through or immediately after the encounter, the party finds the remains. Recent enough to identify as a person, not recent enough to be intact. Kaz's rig is still functional — military-grade case, hardened. Among the saved files: notes on the Archivist signal, partial transcripts of attempted queries that never completed, and the adaptor for the hardline port. The notes are fragmented and technical, but one line is legible in full:
 
 > *"It knows things that can't be in any database. It asked me what year it was. I don't think it was malfunctioning."*
@@ -193,6 +201,7 @@ She means it. She needs a shape for things, even when the shape is bad. The debt
 | Kaz's notes | Judy has backups of Kaz's research — will share when the moment is right | Slow burn |
 | The Director confirmed | The Archivist knew him in Wildemount — the lich is real and named | Confirmed |
 | The Spawn | Where did they come from? Are there more? Are they connected to anything? | Slow burn |
+| Club Blood | Membership chips on the spawn bodies — an unlisted club, thirty-plus years old | Active |
 | Full restoration | When all three nodes connect — the Archivist will remember. | Delayed payoff |
 
 ---
