@@ -13,6 +13,7 @@ The party enters Night City for the first time. The Badlands gave them context �
 ## Scenes
 
 - [Scene 1 — The Tattoo Parlor](scene-1-watson-tattoo.md)
+- [Scene 1B — The Watson Alley](scene-1b-the-watson-alley.md) *(transition; Arasaka surveillance provocation)*
 - [Scene 2 — Misty's Reading](scene-2-mistys-reading.md)
 - Scene 3 — The Archivist Node *(planned)*
 - Scene 4 — *(TBD based on session direction)*
