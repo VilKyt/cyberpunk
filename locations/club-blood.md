@@ -110,6 +110,27 @@ The door policy is real: the surface club is actually difficult to get into. Thi
 
 ---
 
+## Key Member — Mirela
+
+Cover identity: **Vera Ashford**, independent corporate art consultant, small Heywood office, client list of Night City's wealthy. She has been in Night City longer than the name. She has been in the world longer than Night City.
+
+She looks roughly forty. She moves like someone who has never once been startled in their life.
+
+She is the ancient member most likely to engage with the party directly — not because she is careless, but because she has assessed them and found them interesting in a way that overrides her usual caution.
+
+**What she knows:**
+- The Director's original name. What he was before the transformation. What he wanted from the soul-drain in its earliest form.
+- The Archivist — not as an AI fragment, but as the wizard he was. She does not know he survived the transfer. If the party tells her: the weight of this lands differently than anything else they could have said.
+- The arrangement, in full detail. She was one of the parties who negotiated its original terms, decades ago.
+
+**What she will trade for:** the right reason. She does not fear the party. She is assessing whether they are worth speaking honestly to. The Archivist's name she holds most tightly — she will only give it if she believes the person asking understands what it cost him to lose it.
+
+> *"If you find him. If he remembers. Tell him Mirela sends her regards. He will know what that means."*
+
+> *GM note: "Mirela sends her regards" is the line that lands at the full restoration scene. When the Archivist's coherence returns, if the party delivers this message, it unlocks his earliest memory of the world before the transfer — and closes a thread he thought was gone.*
+
+---
+
 ## What the Club Wants From the Party
 
 Nothing. Not yet. They are watching.
@@ -133,6 +154,7 @@ If the party becomes a direct threat to the arrangement, that changes things.
 | The Director's original name | Exists. The ancient members hold it. | Slow burn |
 | The spawn | *Those were ours.* The club does not pursue what it loses. | Acknowledged |
 | Soul-clear readings | The party's readings are unprecedented even here — they are being watched | Active |
+| Tobias Rieper | An independent contractor is already working this location — see `act-2/side-quests/quest-club-blood.md` | Active |
 
 ---
 
