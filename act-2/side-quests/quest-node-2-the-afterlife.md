@@ -27,7 +27,7 @@ Getting there requires:
 
 The Afterlife is not impossible to enter. It is meritocratic in the Night City sense: reputation, money, or a compelling reason. The party arriving from the Badlands fringe with no Night City track record starts near the bottom of that list.
 
-**The primary route — notoriety:** Complete 2 of the 3 gigs in [Gigs — Afterlife Access](gigs-afterlife-access.md). Word travels. The door staff will have heard the party's name before they arrive. Entry becomes a professional courtesy rather than a favour. Complete all 3 and the bartender has a drink poured before they reach the bar.
+**The primary route — street cred:** Complete 2 of the 3 gigs in [Gigs — Afterlife Access](gigs-afterlife-access.md). Word travels. The door staff will have heard the party's name before they arrive. Entry becomes a professional courtesy rather than a favour. Complete all 3 and the bartender has a drink poured before they reach the bar.
 
 **Alternative routes (if the party skips the gigs):**
 
@@ -59,8 +59,8 @@ She will read the party the same way she reads everyone who walks in: threat lev
 - She has seen corp activity in Watson that doesn't match any job she's aware of — passive surveillance, the kind that isn't looking for something, it's *documenting* something. It started months ago.
 
 *High trust / significant exchange:*
-- She ran the original tower raid with Silverhand. She survived. He didn't. She has been waiting for thirty years to understand why the extraction worked — why the chip held when every previous test had failed. She has a theory she will not say aloud in a bar.
-- If the party can give her a framework — the Director, the Soulkiller lore, what the party knows — she files it against thirty years of accumulated suspicion and starts drawing conclusions faster than anyone expects. She's been watching this city long enough that she only needed the missing piece.
+- She ran the original tower raid with Silverhand. She survived. He didn't. She has been waiting for fifty-four years to understand why the extraction worked — why the chip held when every previous test had failed. She has a theory she will not say aloud in a bar.
+- If the party can give her a framework — the Director, the Soulkiller lore, what the party knows — she files it against fifty-four years of accumulated suspicion and starts drawing conclusions faster than anyone expects. She's been watching this city long enough that she only needed the missing piece.
 - She will let the party into the basement. She will not explain to her staff what they're doing there. She will expect a report when they come back up.
 
 ---
@@ -89,7 +89,7 @@ If the party asks questions while connected at this node, the Archivist's answer
 
 - The Silverhand extraction in detail — what made it work, what the Director has been building toward since
 - The nature of the Soulkiller network's architecture: it runs on the soul-drain infrastructure the Director has been building for centuries, but Soulkiller is the *extraction* mechanism, not the drain itself. The drain feeds the network. Soulkiller is what lets him *keep* specific souls rather than just deplete them
-- The warded ink: he has recorded four soul-clear individuals in forty years. Three of them carry ink with a signature he recognizes as abjuration. He would like to know where the formula came from. *"The specificity of the ward suggests someone who understood what they were protecting against. That level of knowledge — [gap] — that is not what I would expect to survive."*
+- The warded ink, in more depth than at Node 1: the signature is Wildemount-school abjuration, not something improvised. He would like to know where the formula came from — and whether it came from the nineteenth signal, the one with no ink that went dark. *"The specificity of the ward suggests someone who understood what they were protecting against. That level of knowledge — [gap] — that is not what I would expect to survive."*
 - The Director's known endgame components: the Soulkiller network, a working phylactery distributed at continental scale, and something the Archivist calls *"the threshold" — a coherence level he has not reached yet. What happens at the threshold, the Archivist will not say yet. Not enough nodes.*
 
 ---
@@ -98,8 +98,8 @@ If the party asks questions while connected at this node, the Archivist's answer
 
 | Thread | Hook | Status |
 |---|---|---|
-| Rogue as an ally | She has thirty years of context and a reason to want the same outcome | Active |
-| The extraction | Rogue knows something about why the Silverhand chip held — she's been thinking about it for thirty years | Planted |
+| Rogue as an ally | She has fifty-four years of context and a reason to want the same outcome | Active |
+| The extraction | Rogue knows something about why the Silverhand chip held — she's been thinking about it for fifty-four years | Planted |
 | The threshold | The Archivist mentioned something the Director is building toward and stopped | Slow burn |
 | The warded ink source | The Archivist recognises the formula as real abjuration — whoever made it understood the drain | Active |
 | Node 3 | Still needed | Active |

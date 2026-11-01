@@ -24,7 +24,7 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 - [Quest B — The Tomb Run](side-quests/quest-b-tomb-run.md) — Supply escort with tomb artifacts. Fence contact Henk. Rook trust: Neutral → Allied.
 - [Quest C — The Drag](side-quests/quest-c-the-drag.md) — Vehicle race. No main-story stakes. Tone break. Corruption visible in racer Dio.
 - [Quest D — The Dead Zone](side-quests/quest-d-the-dead-zone.md) — Minor. The woman's pocket dimension threshold. She doesn't come out. She leaves a stone.
-- [Quest E — First Contact](side-quests/quest-e-first-contact.md) — Minor. The Archivist signal. First conversation. He asks what year it is.
+- [Quest E — First Contact](side-quests/quest-e-first-contact.md) — ~~Minor. The Archivist signal.~~ **Not played — superseded.** The Archivist was moved to the city; first contact now happens in Act 2, Scene 3.
 
 ---
 
@@ -35,7 +35,7 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 | The Convergence File | Arasaka knew the tomb existed | Unresolved |
 | "Souls are clean" | Rook reacts — why? | Unresolved |
 | Corruption in agents | Magic users can see what others can't | Slow burn |
-| The Archivist | Ancient AI signal in the Badlands | Planted |
+| The Archivist | Signal on Rook's map — not followed; thread moved to Act 2 (Watson tunnels) | Moved |
 | Rook's theory | She knew something was here | Unresolved |
 | The grandmother's story | Someone warned people away for generations | Ghost of key NPC |
 | Splice's tattoo | Abjuration ink shields her from the passive drain — she doesn't know why | Live |

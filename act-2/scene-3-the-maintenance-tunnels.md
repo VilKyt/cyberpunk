@@ -11,7 +11,7 @@ Watson sits on top of itself. The district visible above street level is two hun
 
 **Why the Archivist has a node here:** The pre-corporate infrastructure was laid before Arasaka's network existed. The Archivist embedded fragments of himself in servers that were already old when Night City was built — hardware so outdated it doesn't appear in modern network inventories. It is not hidden so much as simply absent from the world that looks for things. He has been running in the dark under Watson for decades.
 
-**Why the vampire spawn are here:** Three of them. They drifted in from somewhere — the party will never know exactly where or when. What the Archivist knows, and will share if asked: they arrived roughly forty years ago, following the warmth of his node's residual signal. He has been watching them. He cannot do anything about them. They have been feeding on whoever enters the tunnels — maintenance workers who went missing, vagrants who found the hatch, and most recently **Kaz**, the netrunner who found the node but didn't make it back out.
+**Why the vampire spawn are here:** Three of them. They were members of Club Blood once (see the chips below, and `locations/club-blood.md`) until the ambient drain hollowed them out. What the Archivist knows, and will share if asked: they arrived roughly forty years ago, following the warmth of his node's residual signal. He has been watching them. He cannot do anything about them. They have been feeding on whoever enters the tunnels — maintenance workers who went missing, vagrants who found the hatch, and most recently **Kaz**, the netrunner who found the node but didn't make it back out.
 
 > *The hacker's remains are in the tunnels. The party will find them. They still have gear.*
 
@@ -120,7 +120,7 @@ He answers questions accurately. He does not volunteer. He has been asking quest
 **Freely:**
 - Magic underlies the city's infrastructure at a level beneath the corporate architecture. It was there before Arasaka. It will be there after.
 - The soul-drain is real. He has been watching it for a very long time. He can describe it in terms that connect the Wildemount-era methods to the current Soulkiller architecture.
-- Soul-clear readings like the party's are *statistically impossible* in this city. He has the logs. He shows them a count: in forty years of monitoring, he has recorded four soul-clear individuals. Three of them carry the warded ink. The party do not.
+- Soul-clear readings like the party's are *statistically impossible* in this city. He has the logs. He shows them a count: in forty years of monitoring, nineteen soul-clear signatures. Eighteen carry the warded ink. The nineteenth carried no ink at all — a signal that was simply *clean* — and it went dark in Watson two years ago. *(That is the Artist's contact.)* The party carry no ink either.
 - The corruption (purple-black iridescence) is phylactery byproduct. He knows its history. He can explain what it does to a mind over time.
 
 **With exchange:**
@@ -149,10 +149,10 @@ A buried junction beneath the Afterlife club in Watson. The club has been in tha
 
 *(He is describing Rogue. He does not say her name — his records show her as an operational contact from archived net traffic. He has never met her.)*
 
-**Node 3 — TBD**
-*(To be determined — see GM note below)*
+**Node 3 — The Militech Station**
+A pre-corporate conduit under a quiet Militech monitoring station on Watson's eastern edge. Militech has logged his signal as an anomaly for years and never understood it. Heavily guarded. See [Node 3 — Militech Facility](side-quests/quest-node-3-militech.md).
 
-> *GM note: Node 3 location is left open for development. Options: a Voodoo Boys-adjacent server in Pacifica (connects the Splice thread and opens Pacifica as a location); a buried node in old Militech infrastructure (opens a different faction angle); a node in the Badlands fringe near the original tomb site (ties back to Act 1). Choose based on where the campaign wants to go next.*
+> *"The people above it are — [gap] — not the Director's. That is the best I can say for them."*
 
 ---
 
@@ -178,15 +178,7 @@ The tunnels are clear. The spawn don't regenerate — at least, not tonight.
 
 The party surfaces alone. Watson noise comes back immediately — traffic, neon, the city indifferent to what just happened below it. The hatch closes behind them.
 
-**Back to Moxie's:** Judy is waiting. She already suspects from the party's faces before anyone speaks. She listens to what happened — the spawn, Kaz's remains, what was found. She is quiet through it.
-
-> *"They found what they were looking for at least."*
-
-A beat.
-
-> *"That's something."*
-
-She means it. She needs a shape for things, even when the shape is bad. The debt she owes the party is now real, and she treats debts as real.
+**Back to Moxie's:** Judy is waiting for the answer. Run it from [Scene 1C — Returning to Judy](scene-1c-moxies-club.md#returning-to-judy--after-the-tunnels).
 
 ---
 
@@ -196,11 +188,11 @@ She means it. She needs a shape for things, even when the shape is bad. The debt
 |---|---|---|
 | The Archivist — Node 1 active | First contact established; full restoration requires two more nodes | Active |
 | Node 2 — The Afterlife | Get into the club, get below it; Rogue is the key | Active |
-| Node 3 — TBD | Location to be determined | Planted |
+| Node 3 — Militech | Under a Militech monitoring station; deal or break in | Active |
 | Kaz — answered | Party tells Judy what happened; she knows; her debt is real | Resolved → ongoing |
 | Kaz's notes | Judy has backups of Kaz's research — will share when the moment is right | Slow burn |
 | The Director confirmed | The Archivist knew him in Wildemount — the lich is real and named | Confirmed |
-| The Spawn | Where did they come from? Are there more? Are they connected to anything? | Slow burn |
+| The Spawn | Hollowed-out Club Blood members — the drain takes even the undead | Answered via Club Blood |
 | Club Blood | Membership chips on the spawn bodies — an unlisted club, thirty-plus years old | Active |
 | Full restoration | When all three nodes connect — the Archivist will remember. | Delayed payoff |
 

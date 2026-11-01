@@ -61,11 +61,11 @@ When the party arrives looking for "the ghost who didn't finish his
 fight" — however they phrase it — she will go very still.
 She already knows exactly who they mean.
 
-### The Raid: She Plans It, She Leads the Ground Op
-The assault on Arasaka Tower is her operation as much as
-Silverhand's. She's the one with the contacts, the helicopter,
-the crew. Silverhand is the face and the reason; Rogue is the
-mechanism.
+### The Raid (2077): She Plans It, She Leads the Ground Op
+She ran the 2023 raid beside Silverhand and lived. If it comes to
+a second one, it is her operation as much as his (through V).
+She's the one with the contacts, the helicopter, the crew.
+Silverhand is the face and the reason; Rogue is the mechanism.
 
 She has been building toward this for years without admitting
 it to herself.
@@ -93,7 +93,7 @@ is an Act 3 thread.
 - What the Soulkiller actually does (she thinks it's a
   consciousness-destruction weapon, which is partially correct)
 - Why the Silverhand extraction worked when every previous test failed
-  — this has been the question she has turned over for thirty years.
+  — this has been the question she has turned over for fifty-four years.
   She suspects the answer is connected to whatever Arasaka was doing
   in the 2023 tower that she never fully understood. She's right.
 

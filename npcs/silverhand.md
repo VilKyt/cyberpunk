@@ -38,7 +38,7 @@ Rogue. The underground. Records that shouldn't still exist.
 
 That trail eventually leads to V. And V is carrying the ghost.
 
-> *The Judgement card from Misty's reading points here. The party doesn't
+> *Misty's Question 4 (Hermit + Nine of Wands + Knight of Swords) points here. The party doesn't
 > know that yet. Let the search take time. The realisation that the dead
 > man they're looking for is currently alive inside someone else's skull
 > should land as a discovery, not a briefing.*

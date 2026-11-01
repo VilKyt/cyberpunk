@@ -27,7 +27,7 @@ When the party surfaces at Club Blood following the spawn chips, he watches them
 
 **Standard:** The party arrives at Club Blood's surface entrance with the membership chips from the Watson tunnels. The chips are old enough to attract attention. Someone at the door will want to know how they came by them. Getting into the lower level requires either a convincing story or a connection — a scene in itself.
 
-**If the party's notoriety is already high:** the surface club is accessible through the same notoriety network that opened the Afterlife. Club Blood's ownership is separate, but the name carries. They get the surface floor without the chip conversation.
+**If the party's street cred is already high:** the surface club is accessible through the same fixer network that opened the Afterlife. Club Blood's ownership is separate, but the name carries. They get the surface floor without the chip conversation.
 
 **47's entry point:** He is already inside. Surface floor, corner table, a glass of water he has not touched. He is dressed in a manner that makes him invisible in this room — expensive, precise, the kind of person who belongs in an expensive club without being notable in one. He is watching the door to the access corridor.
 
@@ -121,7 +121,7 @@ The party bypasses 47's contract and goes to the ancient member themselves — t
 
 ## The Ancient Member — A Name for the Table
 
-The contract target: **Mirela**. Cover identity: Vera Ashford, independent corporate art consultant with a small Heywood office and a client list of Night City's wealthy. She has been in Night City for longer than the name. She has been in the world for longer than Night City.
+The contract target: **Ilvara**. Cover identity: Celeste Ashford, independent corporate art consultant with a small Heywood office and a client list of Night City's wealthy. She has been in Night City for longer than the name. She has been in the world for longer than Night City.
 
 She looks roughly forty. She moves like someone who has never once been startled in their life.
 
@@ -140,7 +140,7 @@ She will not trade the Archivist's name easily. She will want to know why they w
 
 > *"His name was — [she says it]. He would not want me to give it to someone who did not understand what it cost him to lose it."*
 
-> *"If you find him. If he remembers. Tell him Mirela sends her regards. He will know what that means."*
+> *"If you find him. If he remembers. Tell him Ilvara sends her regards. He will know what that means."*
 
 ---
 
@@ -165,9 +165,9 @@ He leaves. He does not explain further.
 | Thread | Hook | Status |
 |---|---|---|
 | 47's Tower schematics | Available if contract completes; the raid's best intelligence asset | Conditional |
-| The Director's original name | Mirela holds it; extractable via negotiation or after contract completes | Active |
-| The Archivist's name | Mirela knows it; only tradeable for the right reason | Active |
-| *"Tell him Mirela sends her regards"* | If the Archivist's restoration completes, this line lands at the recognition scene | Delayed payoff |
+| The Director's original name | Ilvara holds it; extractable via negotiation or after contract completes | Active |
+| The Archivist's name | Ilvara knows it; only tradeable for the right reason | Active |
+| *"Tell him Ilvara sends her regards"* | If the Archivist's restoration completes, this line lands at the recognition scene | Delayed payoff |
 | Club Blood — disrupted | If the contract completes, the ancient members know something happened. They will note the party's presence. | GM discretion |
 | 47 — future contact | He is not gone permanently. He files the party as unusual. Future contracts may overlap. | Slow burn |
 | The client | She is grieving. She does not know what she set in motion. The party may or may not ever meet her. | Optional |
