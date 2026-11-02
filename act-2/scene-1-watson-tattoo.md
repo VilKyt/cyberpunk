@@ -11,7 +11,7 @@ The tattoo artist — call them **the Artist** until you name them at the table 
 
 **What the ink does:** encodes a passive abjuration ward into the skin. Anyone tattooed with it reads as soul-clear on Arasaka calibration equipment — the soul-drain's passive signal doesn't register on them. To the Soulkiller network they are effectively invisible. They don't know this. The Artist doesn't know this. They just know the people they've inked seem to move through the city with less friction, stay sharper longer, don't get that specific flat affect that settles into most Night City residents after a decade.
 
-**The contact who gave them the formula:** a magic user, now gone to ground. Two years of silence. The Artist has a dead-drop address — an old messaging protocol the contact set up before vanishing. They haven't used it. They're not sure they want to know why the contact stopped responding.
+**The contact who gave them the formula:** a magic user, now gone to ground. Two years of silence. The Artist has a dead-drop address — an old messaging protocol the contact set up before vanishing. They haven't used it. They're not sure they want to know why the contact stopped responding. *(GM: the contact is Myrael — see `npcs/myrael.md`. Using the dead-drop brings her crow.)*
 
 **The hacker (Kaz):** about six months ago, a netrunner showed up asking strange questions about the ink, the network, and something they called *"old coherence in the infrastructure."* They mentioned a signal — an AI fragment, pre-corporate, buried under Watson. Called it the Archivist. Left a copy of the query format with the Artist before heading underground. The Artist filed it away. They thought it was too dangerous to use alone.
 

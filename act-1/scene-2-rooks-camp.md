@@ -117,6 +117,8 @@ If the party is honest with her, Rook opens a fraction. Not warm. But straight.
 
 > *"My grandmother kept a journal. Old, handwritten, starting about forty years ago. She spent fifteen years of it on one thing — a woman she kept almost finding, out in the Badlands. Said the woman knew things about what Arasaka was doing that no one else did. Said she kept disappearing before anyone could reach her. Last entry just says: 'She's still out there. She's waiting for the right people.'"*
 
+> *GM note: the woman is Myrael — see `npcs/myrael.md`.*
+
 She pauses.
 
 > *"I've been scanning the Quiet Mile for two years. I don't know what I expected to find. Not you."*

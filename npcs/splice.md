@@ -47,6 +47,8 @@ Clean, fast, professional. Twenty minutes per person. She works in silence excep
 ### Database Access Brokering
 She knows which nodes hold what, which ones have weak points, which ones are under active Arasaka monitoring. She can point people at targets. She doesn't run the jobs herself — she lost her best netrunner contact recently and hasn't replaced them.
 
+> *GM note: the netrunner was **Kaz**. Kaz went quiet about six months ago after chasing an old signal under Watson — Splice assumes a job went wrong and hasn't asked. Kaz died in the maintenance tunnels (Act 2, Scene 3). If the party tells her, she goes still, says "Huh," and doesn't charge them for the next job. Kaz also got Splice's ink-parlor address from her — it's how Kaz ended up at the Artist's.*
+
 ### Information
 She observes. She logs. She has been watching the fringe for eight years and has a very good sense of what patterns mean. If the party needs to know something about Watson or the fringe infrastructure, she probably knows it or knows who does.
 

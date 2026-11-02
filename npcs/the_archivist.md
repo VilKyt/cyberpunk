@@ -218,6 +218,6 @@ The displacement itself: he can do it, he believes, with all three nodes active 
 - [ ] Node 3 connected — Militech facility (Act 2 side quest)
 - [ ] Full restoration — he recognises the party; reveals he is their Wildemount ally *(GM secret until this moment)*
 - [ ] He reveals the threshold — the Tower (full restoration)
-- [ ] He says his name (full restoration — or the party already has it from Ilvara at Club Blood)
+- [ ] He says his name himself (full restoration). Ilvara knows it but won't give it; Myrael won't either.
 - [ ] His dunamancy knowledge is the key to disrupting Soulkiller architecture (Act 2/3)
 - [ ] He proposes temporal displacement — the far future option (Act 3/4)

@@ -66,9 +66,9 @@ Dead since 2023. His engram is on the Relic chip in V's head, slowly overwriting
 
 ## The Pocket Dimension — Key NPC's Location
 
-> *Open thread — not yet placed in Act 2. See Act 1, Quest D.*
+> *Full sheet: `npcs/myrael.md`. She is also the woman in the drain, Mireille Voss, the grandmother's ghost and the Artist's ink contact.*
 
-The woman who knows about true magic — the key NPC — is hiding in a **pocket dimension** she constructed before the Director could find her. It exists as a fold in the Badlands signal — detectable as a dead zone, a place where even the ambient phylactery energy doesn't reach.
+The woman who knows about true magic — **Myrael**, the key NPC — is hiding in a **pocket dimension** she constructed before the Director could find her. It exists as a fold in the Badlands signal — detectable as a dead zone, a place where even the ambient phylactery energy doesn't reach.
 
 Getting to her requires:
 1. Believing she exists (the grandmother's story, other rumours)

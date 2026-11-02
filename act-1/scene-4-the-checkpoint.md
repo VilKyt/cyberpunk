@@ -116,7 +116,9 @@ Splice mentioned, without being asked, that the storm drain system that runs und
 
 **Using this option:** No scanner. No official. No ID check. The party enters Watson without any checkpoint record at all, which is useful — no log, no flag, nothing for anyone to find.
 
-The complication: the same drain system from Scene 3's Option B. The woman with the amber eye is here. She was there then and she is here now, which means she has *moved*. Same stillness. Same clean soul signature for any magic user who checks. She is between them and the drain exit.
+The complication: a woman with amber eyes is standing in the drain. Perfectly still. A clean soul signature for any magic user who checks — the first clean soul they have met in this world besides their own. She is between them and the drain exit.
+
+> *GM note: this is Myrael, seen through a projection cast from her pocket dimension. See `npcs/myrael.md`.*
 
 She doesn't attack. She looks at them for a long moment. Then she says — the first thing she's said either time:
 
@@ -186,7 +188,7 @@ Before moving to Act 2, confirm the party has touched the following threads. Any
 | Thread | Hook | Urgency |
 |---|---|---|
 | The CVGNC-OPS flag | May or may not have been logged. Pattern building. | Background — slow escalation |
-| The woman in the drain | "You shouldn't be here yet." Clean soul. Moving. | Active question |
+| The woman in the drain | "You shouldn't be here yet." Clean soul. Amber eyes. (Myrael) | Active question |
 | The old woman's record | Director-notified, 107-year-old Watson resident | Actionable in Act 2 |
 | The Archivist signal | Southeast, on Rook's map | Waiting |
 | "Soul-clear" | Voodoo Boys have a word for what they are | Act 2 faction hook |

@@ -11,7 +11,7 @@ The party is not the only one who found the chips interesting.
 
 **Tobias Rieper** has been in Night City for three weeks. He arrived with a contract and a cover — a consultant, visiting on corporate business, staying at a City Center hotel that doesn't ask for the kind of identification that goes into databases. His real name is not Tobias Rieper. He has a barcode on the back of his head that he keeps covered. He does not discuss either of these things.
 
-His contract: eliminate a specific individual who attends Club Blood's lower level — one of the ancient members, a Wildemount-era vampire operating under a current cover identity as a minor corporate art consultant. The client is a Night City resident who lost a family member to the Director's removal service eight months ago; she is not wealthy enough to fight Arasaka directly and does not know that is what she is fighting. She knows only that someone arranged her daughter's disappearance, and that the person she is paying an extraordinary amount of money knows how to make problems stop.
+His contract: eliminate a specific individual who attends Club Blood's lower level — one of the ancient members, a Wildemount-era vampire operating under a current cover identity as a private art collector. He is the member who carries out the Director's removals. The client is a Night City resident who lost a family member to the Director's removal service eight months ago; she is not wealthy enough to fight Arasaka directly and does not know that is what she is fighting. She knows only that someone arranged her daughter's disappearance, and that the person she is paying an extraordinary amount of money knows how to make problems stop.
 
 The contract should have been straightforward.
 
@@ -87,13 +87,13 @@ He is not shaken. He is recalibrating.
 
 ## Beat 3 — The Decision
 
-The party knows what they know from `locations/club-blood.md`. The ancient members are potential information sources: they knew the Director before the transformation. One of them may know the Archivist's name. Killing 47's target may close that thread permanently.
+The party knows what they know from `locations/club-blood.md`. The ancient members are potential information sources: they knew the Director before the transformation. 47's target is one of them — but not the one who talks. Ilvara is the one who talks.
 
 **Option A — Help him complete the contract**
 
-The party assists. They know how to kill it; he has the access and the patience. Together, they plan the elimination. The ancient vampire member dies.
+The party assists. They know how to kill it; he has the access and the patience. Together, they plan the elimination. The ancient vampire member dies. **Run it from [Club Blood — The Penthouse](club-blood-the-penthouse.md).**
 
-*What the party loses:* one potential information source. Whatever that member knew about the Director's original name, the Archivist's identity, Wildemount — gone.
+*What the party loses:* one potential information source. Teodor knew the Director's methods better than anyone — he ran his errands. Ilvara still holds the rest.
 
 *What the party gains:* 47's full cooperation. He delivers the Tower schematics. He offers one additional professional service for the raid — a specific obstacle, a specific target, cleared before the party goes in. He does not offer more than this. He is not joining anyone's cause. He is settling a debt.
 
@@ -105,7 +105,7 @@ The party makes a case: the target has information they need first. A name, or t
 
 47 considers this. He will agree if the case is good — he is professional, not inflexible, and a delay that produces better intelligence is sometimes the right call. His conditions: a specific timeline (he names one; the party can negotiate), and confirmation that his contract completes when the window closes. He will not cancel. He will wait.
 
-*What this enables:* the party approaches the ancient member and attempts to extract the information they need — the Director's original name, potentially the Archivist's name — before 47 completes his contract. This is a separate beat, and a dangerous one (see below).
+*What this enables:* the party approaches the ancient member and attempts to extract the information they need — the removal list, the Arasaka routing, what the Director has asked him to do lately — before 47 completes his contract. This is a separate beat, and a dangerous one (see below).
 
 *What this risks:* 47 is not flexible indefinitely. If the party takes too long, he proceeds without them, and they lose the window.
 
@@ -119,26 +119,21 @@ The party bypasses 47's contract and goes to the ancient member themselves — t
 
 ---
 
-## The Ancient Member — A Name for the Table
+## The Ancient Members — Names for the Table
 
-The contract target: **Ilvara**. Cover identity: Celeste Ashford, independent corporate art consultant with a small Heywood office and a client list of Night City's wealthy. She has been in Night City for longer than the name. She has been in the world for longer than Night City.
+**The contract target: Teodor Vasharr.** Cover identity: Adrian Kessel, private art collector, owner of the top three floors of the Corvane Residence in Charter Hill. He is the one who does the Director's removals — the client's daughter was his. Full lair and stat block: [Club Blood — The Penthouse](club-blood-the-penthouse.md).
 
-She looks roughly forty. She moves like someone who has never once been startled in their life.
+**The one who talks: Ilvara.** Cover identity: Celeste Ashford, art consultant, small Heywood office. Not 47's target. She looks roughly forty and moves like someone who has never once been startled in her life. See `locations/club-blood.md`.
 
-She knows the Director's original name. She has known it since before it was a secret. She also knows the Archivist — not as an AI fragment, but as the wizard he was, the one who tried to get out before the Director closed the board. She does not know he survived.
+She knows the Director's original name. She has known it since before it was a secret. She also knew the Archivist — not as an AI fragment, but as the wizard he was. She does not know he survived.
 
 > *"He survived? In what form?"*
 
-If the party tells her: the weight of this lands differently on her than anything else they could have said. She is quiet for a long time. Whatever she says next, it is the most honest thing she has said in decades.
+If the party tells her: the weight of this lands differently on her than anything else they could have said. She is quiet for a long time.
 
-**What she will trade for, if the party is negotiating:**
-- Protection from the current contract (she does not fear 47 on principle, but she is pragmatic about odds)
-- Confirmation that the party will not assist in eliminating her
-- In return: the Director's original name. What he was before. What he wanted from the soul-drain before it became what it is now.
+**What she will trade:** the Director's original name, what he was before, what the soul-drain was first meant to do — for the right reason, and for knowing who killed Teodor.
 
-She will not trade the Archivist's name easily. She will want to know why they want it. What they are to him. If the party's answer is the right one — *we know him, we are trying to restore him* — she considers.
-
-> *"His name was — [she says it]. He would not want me to give it to someone who did not understand what it cost him to lose it."*
+**What she will not give:** the Archivist's name. *"That is his to say. If he can still say it, he will."*
 
 > *"If you find him. If he remembers. Tell him Ilvara sends her regards. He will know what that means."*
 
@@ -165,8 +160,9 @@ He leaves. He does not explain further.
 | Thread | Hook | Status |
 |---|---|---|
 | 47's Tower schematics | Available if contract completes; the raid's best intelligence asset | Conditional |
-| The Director's original name | Ilvara holds it; extractable via negotiation or after contract completes | Active |
-| The Archivist's name | Ilvara knows it; only tradeable for the right reason | Active |
+| The penthouse | Teodor's lair — heist by day, fight by night; 47 on overwatch | See [The Penthouse](club-blood-the-penthouse.md) |
+| The Director's original name | Ilvara holds it; tradeable for the right reason | Active |
+| The Archivist's name | Ilvara knows it and won't say it — he says it himself at full restoration | Delayed payoff |
 | *"Tell him Ilvara sends her regards"* | If the Archivist's restoration completes, this line lands at the recognition scene | Delayed payoff |
 | Club Blood — disrupted | If the contract completes, the ancient members know something happened. They will note the party's presence. | GM discretion |
 | 47 — future contact | He is not gone permanently. He files the party as unusual. Future contracts may overlap. | Slow burn |

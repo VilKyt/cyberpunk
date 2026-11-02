@@ -27,6 +27,8 @@ The party exists as a data anomaly. No active pursuit. Automated systems flag th
 - Automated soul-integrity scanners log anomalous readings if the party moves through monitored zones
 - Ghost IDs continue to work — the flag is on the soul-reading layer, not the ID layer
 
+**Border crossings:** every time the party leaves or re-enters the city they roll for the scanner — see `world/border-crossings.md`. A complete failure wakes the Checkup Room Vessel.
+
 **GM note:** The party probably doesn't know they have Tier 1. It's background. It becomes relevant when they do something else and discover the system was already watching.
 
 ---

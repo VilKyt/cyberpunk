@@ -12,6 +12,11 @@
 - Begins corporate infiltration ~200 years ago
 - Takes hold of Arasaka from inside, generations ago (Saburo: vessel, student, or mask — left ambiguous)
 - Old methods: branding, corruption, partial soul-drain through cyberware
+- Myrael (the Archivist's student) escapes into hiding; guards the tomb, lives short mortal lives in Watson
+  - ~40 years ago: Rook's grandmother hunts for her in the Badlands
+  - ~10 years ago: gives the Artist the ward-ink formula
+  - 2 years ago: soul-scanner pilot nearly catches her; she withdraws into the pocket dimension
+  - 6 months ago: stages the death of her last identity, Mireille Voss (107); the Director is notified
 - Smasher: soul drained by hand, decades before his full conversion
 - **2023:** the Arasaka Tower raid. Smasher kills Silverhand; Soulkiller holds for the first time
 - 2023–2077: fifty-four years of failing to reproduce it at scale — no clean calibration source

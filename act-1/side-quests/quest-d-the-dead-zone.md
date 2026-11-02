@@ -7,6 +7,8 @@
 
 > *For the GM.*
 
+> *She is **Myrael** — and also the woman in the drain, Mireille Voss, the grandmother's ghost and the Artist's contact. Full sheet: `npcs/myrael.md`.*
+
 She has been in the pocket dimension for a very long time. Long enough that she has structured her existence around not being found — by the Director, by his network, by anyone who might carry a trace of the drain and lead it to her threshold.
 
 The dead zone exists because she exists. The pocket dimension she constructed folds against the real world at a fixed point in the Badlands southeast of Rook's camp — a place she chose specifically because the ambient signal density is low there, the corp infrastructure sparse, and the natural Badlands terrain disrupts drone sweeps. The fold is invisible from the outside. What's visible is its effect: within a rough 30-meter radius, the ambient soul-drain trace — present everywhere else in Night City's sphere of influence — is simply absent.
