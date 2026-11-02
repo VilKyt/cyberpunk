@@ -206,7 +206,9 @@ Initiative starts. The two guards fight — not heroically, practically. Guard 1
 
 The flagged file marked `CVGNC-OPS / DIRECTOR-NOTIFIED` is in the Archive node. A death certificate for a 107-year-old woman in Watson. No family. No corp history. The Director was personally notified when she died. The scanned handwritten note: *"She always said she'd outlast them."*
 
-This is a thread. Do not explain it here. Let them carry it.
+The ID photo on the certificate: an old woman with amber eyes. Her name was **Mireille Voss**.
+
+This is a thread. Do not explain it here. Let them carry it. *(GM: the death was staged — Mireille was one of Myrael's identities. See `npcs/myrael.md`.)*
 
 ---
 

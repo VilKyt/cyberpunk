@@ -190,7 +190,9 @@ He buys the cargo at agreed rate (Rook's negotiated price: 2,400 eddies for the 
 
 **What Henk knows about the area:** He's been watching the Quiet Mile signal for fifteen years. He knows the Archivist signal — he calls it *"the grandmother signal"* because an old woman who used to come through his waystation years ago was the one who first told him it responded to queries. She stopped coming through six years ago. He knows her name.
 
-If the party asks, he tells them: **Mireille Voss**. Watson district. She was 101 when she stopped coming through. He doesn't know she died at 107.
+If the party asks, he tells them: **Mireille Voss**. Watson district. She was 101 when she stopped coming through. He doesn't know she died at 107. He does remember her eyes — amber.
+
+> *GM note: Mireille was Myrael's last mortal identity. See `npcs/myrael.md`.*
 
 ---
 

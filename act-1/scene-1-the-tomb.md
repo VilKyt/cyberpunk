@@ -59,7 +59,7 @@ This is where **local player characters** can be introduced — they're either a
 ### What the Nomads Know
 - The tomb pinged on a low-frequency salvage scanner for **weeks** before they got brave enough to crack it.
 - Locals call this area the **Quiet Mile** — animals avoid it, signals go fuzzy, corp drones reroute around it automatically.
-- One of the older nomad members: *"My grandmother said there was a woman who warned people away from this ground. Said something was sleeping here that Arasaka wanted badly."* He won't elaborate. He's superstitious and wants to leave immediately.
+- One of the older nomad members: *"My grandmother said there was a woman who warned people away from this ground. Said something was sleeping here that Arasaka wanted badly."* He won't elaborate. He's superstitious and wants to leave immediately. *(GM: the woman was Myrael, guarding the tomb — see `npcs/myrael.md`.)*
 
 ### Rook — First Contact
 She's up top. Not down here yet. The imprisoned characters hear her voice before they see her — calm, clipped, in charge.

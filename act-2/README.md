@@ -26,6 +26,20 @@ Artist → (alley) → Judy → (Misty, any time) → tunnels → Archivist asks
 - [Node 2 — The Afterlife](side-quests/quest-node-2-the-afterlife.md) — Rogue; get below the club. Archivist more coherent; drops "the threshold."
 - [Node 3 — Militech Facility](side-quests/quest-node-3-militech.md) — Deal with Militech or punch/stealth through. Full restoration triggers here.
 - [Club Blood](side-quests/quest-club-blood.md) — Follows the spawn's membership chips. Tobias Rieper is already inside. See also [the location](../locations/club-blood.md).
+  - [The Penthouse](side-quests/club-blood-the-penthouse.md) — Teodor Vasharr's lair; heist by day, Dominion fight by night; 47 on overwatch.
+
+**Leaving or re-entering the city:** every crossing is a soul-scan luck roll, and every outpost has a Checkup Room with a Vessel the Director can ride. See [Border Crossings](../world/border-crossings.md).
+
+---
+
+## Where the Party Is Now
+*(Updated November 2026)*
+
+- **They know where souls go.** In Night City, a soul leaving a body does not go to any afterlife. It goes to Arasaka Tower — to the systems there, and to whatever the Director is building (they suspect a phylactery).
+- **They suspect the lich.** They have not confirmed the Director is him, but they are working on that assumption.
+- **They have no way into the Tower yet.** The nearest one: 47's Tower schematics, delivered when the penthouse contract completes. After that: Rogue (Node 2) and V/Silverhand.
+- **They are helping 47.** They have located Teodor's penthouse and are planning the hit.
+- **A detour out of the city** for one character's personal story. Coming back means a border crossing.
 
 ---
 
@@ -33,7 +47,11 @@ Artist → (alley) → Judy → (Misty, any time) → tunnels → Archivist asks
 
 | Thread | Hook | Status |
 |---|---|---|
-| The Ink Source | A magic user gave the Artist the formula, then went silent two years ago | Planted |
+| The Ink Source | A magic user gave the Artist the formula, then went silent two years ago — Myrael, also the Archivist's 19th signal | Planted |
+| Myrael | All five Act 1 "mysterious woman" threads are her; waiting behind the threshold | Active |
+| Kaz and Splice | Kaz was Splice's missing netrunner — tell her | Optional |
+| The border Vessels | A failed scan wakes the mannequin in the Checkup Room | Every crossing |
+| Souls go to the Tower | Party knows; no way in yet | Active — main drive |
 | The Protected Network | 15–20 inked, soul-clear people in Watson | Slow burn |
 | Magic users in hiding | They exist. Non-Arasaka ones are extremely hidden. | Slow burn |
 | The Arasaka file | Magic in the alley = the party is a named case | Conditional |

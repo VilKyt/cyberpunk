@@ -120,7 +120,7 @@ He answers questions accurately. He does not volunteer. He has been asking quest
 **Freely:**
 - Magic underlies the city's infrastructure at a level beneath the corporate architecture. It was there before Arasaka. It will be there after.
 - The soul-drain is real. He has been watching it for a very long time. He can describe it in terms that connect the Wildemount-era methods to the current Soulkiller architecture.
-- Soul-clear readings like the party's are *statistically impossible* in this city. He has the logs. He shows them a count: in forty years of monitoring, nineteen soul-clear signatures. Eighteen carry the warded ink. The nineteenth carried no ink at all — a signal that was simply *clean* — and it went dark in Watson two years ago. *(That is the Artist's contact.)* The party carry no ink either.
+- Soul-clear readings like the party's are *statistically impossible* in this city. He has the logs. He shows them a count: in forty years of monitoring, nineteen soul-clear signatures. Eighteen carry the warded ink. The nineteenth carried no ink at all — a signal that was simply *clean* — and it went dark in Watson two years ago. *(That is the Artist's contact — Myrael, see `npcs/myrael.md`.)* The party carry no ink either.
 - The corruption (purple-black iridescence) is phylactery byproduct. He knows its history. He can explain what it does to a mind over time.
 
 **With exchange:**

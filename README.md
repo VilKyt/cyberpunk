@@ -11,9 +11,9 @@
 |--------|----------|
 | `act-1/` | The Tomb, Rook's camp, ghost IDs, the Watson checkpoint |
 | `act-2/` | Night City — the Artist, Judy, Misty, the Archivist's three nodes, Club Blood |
-| `npcs/` | NPC sheets — Rook, Splice, Rogue, Silverhand, the Director, the Archivist, Smasher… |
+| `npcs/` | NPC sheets — Rook, Splice, Rogue, Silverhand, the Director, the Archivist, Myrael, Smasher… |
 | `locations/` | Standalone locations (Club Blood) |
-| `world/` | Timeline, Soulkiller lore, corruption, notoriety, netrunning |
+| `world/` | Timeline, Soulkiller lore, corruption, notoriety, border crossings, netrunning |
 | `equipment/` | Gear tiers |
 | `ideas.md` | Ideas without a home yet |
 

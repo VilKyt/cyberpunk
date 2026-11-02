@@ -23,7 +23,7 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 - [Quest A — The Wraith Foray](side-quests/quest-a-wraith-foray.md) — Combat. Rook's trust test. 6 scavengers, guns, optional corruption detail.
 - [Quest B — The Tomb Run](side-quests/quest-b-tomb-run.md) — Supply escort with tomb artifacts. Fence contact Henk. Rook trust: Neutral → Allied.
 - [Quest C — The Drag](side-quests/quest-c-the-drag.md) — Vehicle race. No main-story stakes. Tone break. Corruption visible in racer Dio.
-- [Quest D — The Dead Zone](side-quests/quest-d-the-dead-zone.md) — Minor. The woman's pocket dimension threshold. She doesn't come out. She leaves a stone.
+- [Quest D — The Dead Zone](side-quests/quest-d-the-dead-zone.md) — Minor. The woman's pocket dimension threshold. She doesn't come out. She leaves a stone. (She is [Myrael](../npcs/myrael.md).)
 - [Quest E — First Contact](side-quests/quest-e-first-contact.md) — ~~Minor. The Archivist signal.~~ **Not played — superseded.** The Archivist was moved to the city; first contact now happens in Act 2, Scene 3.
 
 ---
@@ -37,7 +37,7 @@ The party wakes in a decommissioned soul-drain lab sealed by the lich roughly a 
 | Corruption in agents | Magic users can see what others can't | Slow burn |
 | The Archivist | Signal on Rook's map — not followed; thread moved to Act 2 (Watson tunnels) | Moved |
 | Rook's theory | She knew something was here | Unresolved |
-| The grandmother's story | Someone warned people away for generations | Ghost of key NPC |
+| The grandmother's story | Someone warned people away for generations | Myrael — see `npcs/myrael.md` |
 | Splice's tattoo | Abjuration ink shields her from the passive drain — she doesn't know why | Live |
 | The Tattoo Parlor | The artist who made the ward understands soul-drain; find them in Watson | Hook planted |
 

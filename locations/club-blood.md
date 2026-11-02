@@ -106,7 +106,7 @@ The door policy is real: the surface club is actually difficult to get into. Thi
 - One of the ancient members may have knowledge of the Archivist — not as an AI fragment, but as the wizard he was. They knew him. This can be a thread.
 
 **At their discretion:**
-- Names. The Director's original name. The Archivist's name, possibly. Information that changes the shape of everything the party thinks they know.
+- Names. The Director's original name. Information that changes the shape of everything the party thinks they know. (Not the Archivist's — he says that himself.)
 
 ---
 
@@ -123,7 +123,9 @@ She is the ancient member most likely to engage with the party directly — not 
 - The Archivist — not as an AI fragment, but as the wizard he was. She does not know he survived the transfer. If the party tells her: the weight of this lands differently than anything else they could have said.
 - The arrangement, in full detail. She was one of the parties who negotiated its original terms, decades ago.
 
-**What she will trade for:** the right reason. She does not fear the party. She is assessing whether they are worth speaking honestly to. The Archivist's name she holds most tightly — she will only give it if she believes the person asking understands what it cost him to lose it.
+**What she will trade for:** the right reason. She does not fear the party. She is assessing whether they are worth speaking honestly to. The Archivist's name she will not give at all: *"That is his to say."*
+
+**Not 47's target.** That is Teodor Vasharr, the member who runs the Director's removals — see `act-2/side-quests/club-blood-the-penthouse.md`.
 
 > *"If you find him. If he remembers. Tell him Ilvara sends her regards. He will know what that means."*
 
@@ -150,7 +152,8 @@ If the party becomes a direct threat to the arrangement, that changes things.
 | Club Blood exists | Membership chips from the spawn — an unlisted club, operating for decades | Active |
 | The arrangement confirmed | Club serves as the Director's off-the-books removal service | Planted |
 | Wildemount remnants | Oldest members knew the world before Night City — knew the Director before he was what he is | Planted |
-| The Archivist's name | An ancient member may know it | Slow burn |
+| The Archivist's name | Ilvara knows it and won't say it — his to say | Delayed payoff |
+| Teodor Vasharr | The Director's removal man; 47's target; the penthouse | See the penthouse |
 | The Director's original name | Exists. The ancient members hold it. | Slow burn |
 | The spawn | *Those were ours.* The club does not pursue what it loses. | Acknowledged |
 | Soul-clear readings | The party's readings are unprecedented even here — they are being watched | Active |
