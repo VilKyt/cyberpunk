@@ -13,7 +13,7 @@ The tattoo artist — call them **the Artist** until you name them at the table 
 
 **The contact who gave them the formula:** a magic user, now gone to ground. Two years of silence. The Artist has a dead-drop address — an old messaging protocol the contact set up before vanishing. They haven't used it. They're not sure they want to know why the contact stopped responding.
 
-**The hacker:** about six months ago, a netrunner showed up asking strange questions about the ink, the network, and something they called *"old coherence in the infrastructure."* They mentioned a signal — an AI fragment, pre-corporate, buried under Watson. Called it the Archivist. Left a query format with the Artist before disappearing into the net. The Artist filed it away. They thought it was too dangerous to use alone.
+**The hacker (Kaz):** about six months ago, a netrunner showed up asking strange questions about the ink, the network, and something they called *"old coherence in the infrastructure."* They mentioned a signal — an AI fragment, pre-corporate, buried under Watson. Called it the Archivist. Left a copy of the query format with the Artist before heading underground. The Artist filed it away. They thought it was too dangerous to use alone.
 
 **The protected network:** the Artist has used the special ink on roughly fifteen to twenty people over the years — clients they trusted, people who seemed like they needed it without knowing why. Splice is one. The others are scattered across Watson and the fringe. None of them know each other as a group. This is not an organisation. It's one person quietly trying to do something right in a city that makes that very difficult.
 

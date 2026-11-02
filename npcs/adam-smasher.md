@@ -85,7 +85,9 @@ Smasher is not a living thing.
 Smasher is waiting. He will be wherever the Director most needs
 him — likely the path between the party and the servers.
 
-He stops Silverhand. He will attempt to stop the party.
+He killed Silverhand in 2023. He will attempt to stop the party.
+
+> *He is also the one success of the programme Gig C's chip subject is a failed copy of: a soul-drained body that stays strong **and** obeys. The Director made Smasher by hand. The chips are an attempt to make him in bulk.*
 
 The question for the table is not "can we beat him" but
 "what do we sacrifice to get past him."

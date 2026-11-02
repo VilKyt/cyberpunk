@@ -25,7 +25,7 @@ They didn't find what Arasaka was looking for. They found enough to know somethi
 
 **Getting to Militech:** This requires finding a contact — not Militech directly, but someone who can make an introduction to an operative who has the clearance to make decisions. Options depending on what the party has established:
 - Through Rogue (she knows a Militech liaison, will provide an introduction for the right price or if the party has earned it)
-- Through the notoriety circuit (a fixer who works both sides of the Arasaka-Militech rivalry can broker a meeting)
+- Through the fixer circuit (a fixer who works both sides of the Arasaka-Militech rivalry can broker a meeting)
 - Cold approach: find the shell company's address, send a message up the chain, wait
 
 **The Militech operative:** Mid-level intelligence officer — they deal in information and they are tired of Arasaka winning. When the party shows up with an offer to share what they know about Arasaka's soul-drain operation, the operative's reaction is professional interest over visible scepticism.

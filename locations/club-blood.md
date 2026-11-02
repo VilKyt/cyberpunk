@@ -75,7 +75,7 @@ The front-of-house operates as a genuine nightclub. Staff are human, mostly unaw
 
 The door policy is real: the surface club is actually difficult to get into. This is part of the cover. Nobody suspicious of an exclusive nightclub — they're everywhere. The exclusivity makes the real operation invisible.
 
-**Getting in (surface level):** money, reputation, or being on someone's list. Night City's elite club access. Standard methods. The party will have access once their notoriety reaches a level where their names mean something.
+**Getting in (surface level):** money, reputation, or being on someone's list. Night City's elite club access. Standard methods. The party will have access once their street cred reaches a level where their names mean something.
 
 **Getting below:** requires either an invitation from a member, or the membership chips found on the spawn — which will get the party as far as the access corridor before someone wants to know how they came by them. That conversation will be interesting.
 
@@ -110,9 +110,9 @@ The door policy is real: the surface club is actually difficult to get into. Thi
 
 ---
 
-## Key Member — Mirela
+## Key Member — Ilvara
 
-Cover identity: **Vera Ashford**, independent corporate art consultant, small Heywood office, client list of Night City's wealthy. She has been in Night City longer than the name. She has been in the world longer than Night City.
+Cover identity: **Celeste Ashford**, independent corporate art consultant, small Heywood office, client list of Night City's wealthy. She has been in Night City longer than the name. She has been in the world longer than Night City.
 
 She looks roughly forty. She moves like someone who has never once been startled in their life.
 
@@ -125,9 +125,9 @@ She is the ancient member most likely to engage with the party directly — not 
 
 **What she will trade for:** the right reason. She does not fear the party. She is assessing whether they are worth speaking honestly to. The Archivist's name she holds most tightly — she will only give it if she believes the person asking understands what it cost him to lose it.
 
-> *"If you find him. If he remembers. Tell him Mirela sends her regards. He will know what that means."*
+> *"If you find him. If he remembers. Tell him Ilvara sends her regards. He will know what that means."*
 
-> *GM note: "Mirela sends her regards" is the line that lands at the full restoration scene. When the Archivist's coherence returns, if the party delivers this message, it unlocks his earliest memory of the world before the transfer — and closes a thread he thought was gone.*
+> *GM note: "Ilvara sends her regards" is the line that lands at the full restoration scene. When the Archivist's coherence returns, if the party delivers this message, it unlocks his earliest memory of the world before the transfer — and closes a thread he thought was gone.*
 
 ---
 

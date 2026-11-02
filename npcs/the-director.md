@@ -19,14 +19,9 @@
 
 The Director does not run Arasaka. He *is* Arasaka, in the same way a lich is its phylactery — the corporation is an extension of his will, his infrastructure, his body in this world. Saburo Arasaka, in this telling, either was the Director's vessel, learned from him directly, or is a constructed identity the Director has inhabited at various points over the centuries. This is deliberately left ambiguous until the party is ready to know.
 
-He has had a thousand years to refine what he learned in Wildemount. The phylactery concept — externalising the soul to achieve immortality — has become the **Soulkiller programme**. Secure Your Soul is the retail face. The reality is a continental network he has been trying to build for twenty years and has not yet managed to make work.
+He has had a thousand years to refine what he learned in Wildemount. The phylactery concept — externalising the soul to achieve immortality — has become the **Soulkiller programme**. Secure Your Soul is the retail face. The reality is a continental harvesting network.
 
-Until now.
-
-He has had a thousand years to refine the phylactery concept into the
-**Soulkiller programme** — but it doesn't work yet. Twenty years of
-failed extractions. Every soul in Night City is too corrupted to use
-as calibration material. He has been patient. He is still patient.
+It has worked once. In 2023 it pulled Silverhand's engram out of his dying body and held it. Every attempt since to scale that result has come out degraded — hollow, uncontrollable, or both. Every soul in Night City is too corrupted to use as calibration material. He has been patient. He is still patient.
 
 The party waking up tells him the material he needs exists.
 He does not yet have them. But he will look.
@@ -41,8 +36,9 @@ The Soulkiller is not a single weapon. It is a **distributed system he is still 
 
 - **Layer 1 (Public):** Secure Your Soul — sell the public on digital immortality. The marketing exists. The infrastructure to deliver it at scale does not yet. The product is real enough to sell; the backend is still experimental.
 - **Layer 2 (Corporate):** The intended design — engrams aren't stored, they're processed. Soul-integrity data extracted and fed into the phylactery network. The "backup" is a hollow copy. This is the goal. It is not yet running at scale.
-- **Layer 3 (The problem):** Every extraction attempt before Silverhand produced degraded results. Ambient corruption has contaminated every soul in Night City. The Director has been running test after test for twenty years. Nothing clean enough to calibrate against.
-- **Layer 4 (The raid):** This is when it works. Silverhand leads the assault on Arasaka tower and is captured during it. The Director runs the extraction. It holds — the first real one. The party may witness this. Whether they can stop it, reverse it, or use it against him is the question that drives Act 3.
+- **Layer 3 (The proof):** Silverhand, 2023. The first extraction that held. It is the blueprint — and the chip got away from him. It is now in V's head.
+- **Layer 4 (The problem):** Fifty-four years of trying to repeat it at scale. Ambient corruption has contaminated every soul in Night City; nothing is clean enough to calibrate against. Test subjects come out hollow or uncontrollable (see Gig C's chip subject). Smasher is the one old success, and he was made by hand.
+- **Layer 5 (The Tower):** Full deployment — the whole city harvested at once. It is coming regardless. With a clean calibration source (the party), the harvest holds and he gets an obedient city. Without one, he gets a dead one. Either is acceptable to him; one is better.
 
 ---
 
@@ -81,8 +77,8 @@ In Arasaka's network he is everywhere and nowhere — his presence in the system
 In order of priority:
 
 1. **Capture the party intact** — they are the cleanest souls on the continent; Soulkiller needs them to work at scale
-2. **Complete the Soulkiller extraction** — the first working test will happen during the raid; Silverhand is the subject
-3. **Launch Soulkiller** — once the proof of concept holds, transition from experimental to continental
+2. **Recover the Relic chip** — Silverhand's engram is his blueprint, and it is walking around Night City in V's head
+3. **Launch Soulkiller** — the Tower; Night City first, then the continent
 4. **Containment of magical knowledge** — the party's existence proves magic still functions; this cannot become common knowledge
 5. **Continued stability of Arasaka** — the corporation is his body; he maintains it accordingly
 
@@ -97,4 +93,4 @@ In order of priority:
 - [ ] The Soulkiller is more than advertised (Act 2)
 - [ ] The Director is real and ancient (Act 2/3)
 - [ ] The Director is the lich (Act 3)
-- [ ] The threshold — what he's building toward (Act 3, pre-raid)
+- [ ] The threshold — what he's building toward (Archivist, full restoration)

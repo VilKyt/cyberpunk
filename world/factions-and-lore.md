@@ -23,22 +23,13 @@ Magic-sensitive characters can detect all levels. No one else can.
 
 **Reality:** The engrams are processed, not stored. Soul-integrity data is harvested and fed into the Director's phylactery network. The "backup" is a hollow copy — functional but empty.
 
-**The threshold:** The network is approaching a critical mass. What happens when it completes is unknown to everyone except the Director.
+**The threshold:** The network is approaching a critical mass — the Tower. See `soulkiller_lore.md`.
 
 ---
 
 ## The Archivist
 
-An anomalous signal in the Badlands. Nomads have been picking it up for decades. Responds to queries in a way that looks like corrupted data or, sometimes, poetry.
-
-**True nature (GM only):** An AI that predates the current era, possibly by centuries. Has been observing the Director's activities for a very long time. Has knowledge of the old world — magic, Wildemount, the original nature of the lich — that no living person possesses. Is waiting for someone who can understand what it's saying.
-
-The party are the first people in a thousand years who might qualify.
-
-**Quest object:** To interface properly with the Archivist the party will need:
-- A location fix on the signal source (Badlands exploration)
-- A netrunner capable of navigating its architecture (faction work)
-- Possibly a magic user interfacing directly rather than through tech (unique mechanic)
+A fragmented consciousness in pre-corporate servers under Night City — three nodes (Watson tunnels, below the Afterlife, under a Militech facility). Full sheet: `npcs/the_archivist.md`.
 
 **The AI assistant hook:** The Archivist can be run as a live LLM in-session — an actual AI the players can query in character. It speaks in fragmented, layered responses that reward careful reading. It knows more than it initially appears to.
 
@@ -51,7 +42,7 @@ The Director's body. Militarily and financially dominant. Their cyberware is in 
 
 **Player relationship:** Primary antagonist. Avoid, undermine, eventually raid.
 
-### Militech (Konpeki Sectors)
+### Militech
 Old rival to Arasaka. Cleaner, more military in culture. Does not carry the corruption. May be a temporary ally against Arasaka — they have their own reasons to want Arasaka weakened.
 
 **Player relationship:** Potential tool. Not trustworthy but aligned on one goal.
@@ -67,7 +58,7 @@ Netrunners and mystics operating in the Badlands/eastern sectors. Already mixing
 **Player relationship:** Strange allies. Useful and dangerous. They want something from beyond the Blackwall that the party might be able to provide.
 
 ### Silverhand (Johnny)
-Engram, not a person — at the start. Anti-corporate terrorist legend. His engram is loose in the network, attaching to hosts. He has been watching Arasaka for decades and has a plan that aligns almost completely with the party's goal, with one significant personal wrinkle.
+Dead since 2023. His engram is on the Relic chip in V's head, slowly overwriting V. He has a plan that aligns almost completely with the party's goal, with one significant personal wrinkle. Full sheet: `npcs/silverhand.md`.
 
 **Player relationship:** Eventual ally and partial narrator. He's been watching longer than anyone.
 
@@ -75,7 +66,9 @@ Engram, not a person — at the start. Anti-corporate terrorist legend. His engr
 
 ## The Pocket Dimension — Key NPC's Location
 
-The woman who knows about true magic — the key NPC the party will spend Act 2 chasing — is hiding in a **pocket dimension** she constructed before the Director could find her. It exists as a fold in the Badlands signal — detectable as a dead zone, a place where even the ambient phylactery energy doesn't reach.
+> *Open thread — not yet placed in Act 2. See Act 1, Quest D.*
+
+The woman who knows about true magic — the key NPC — is hiding in a **pocket dimension** she constructed before the Director could find her. It exists as a fold in the Badlands signal — detectable as a dead zone, a place where even the ambient phylactery energy doesn't reach.
 
 Getting to her requires:
 1. Believing she exists (the grandmother's story, other rumours)
@@ -88,13 +81,14 @@ She has been alone in there for a very long time. She is not entirely okay. She 
 
 ## Night City — Key Areas
 
-| Area | Cyberpunk Name | Wildemount Reference | Notes |
-|---|---|---|---|
-| Central corp district | Arasaka Sovereign Territory | Night City core | No-go without ID. Soulkiller servers here. |
-| The Badlands | Netrunner Badlands / Chrome Coast fringe | Xhorhas edge / Menagerie Coast | Nomad territory. Archivist signal. Quiet Mile. |
-| Undercity / deep Watson | The Drain | — | Highest ambient corruption. Strange people. |
-| Fixer district | Syn City | Zadash | Neutral ground. Best place to find work and contacts. |
-| Anarchist coast | Jailbreak Coast | Nicodranas | Off-grid netrunners. Hate Arasaka. Useful. |
+| District | Campaign use | Notes |
+|---|---|---|
+| City Center | Arasaka Tower; Club Blood | No-go without ID. Soulkiller servers here. |
+| Watson | Act 2 base — the Artist, Moxie's, Misty, the Afterlife, the tunnels, Militech station | Old Night City; pre-corporate infrastructure underneath |
+| Undercity / deep Watson | "The Drain" | Highest ambient corruption. Strange people. |
+| Heywood | Ilvara's cover office | Money, art, old families |
+| Pacifica | Voodoo Boys; Splice's old contact | Off-grid netrunners. Hate Arasaka. Useful. |
+| The Badlands | Act 1 — nomads, the Quiet Mile, the dead zone | Rook's territory |
 
 ---
 

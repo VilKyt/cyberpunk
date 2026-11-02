@@ -188,7 +188,7 @@ He buys the cargo at agreed rate (Rook's negotiated price: 2,400 eddies for the 
 
 **What Henk does with information:** He doesn't sell Rook. He does maintain a private log of unusual finds. If the party leaves the active instrument with him, it will eventually draw attention — not immediately, and not from Arasaka directly. But something old and unusual, moving through fringe markets, leaves a trace. This is a slow-burn risk, seeded now.
 
-**What Henk knows about the area:** He's been watching the Quiet Mile signal for fifteen years. He knows the Archivist signal — he calls it *"the grandmother signal"* because an old woman who used to come through his waystation years ago was the one who first told him it responded to queries. She died six years ago. He knows her name.
+**What Henk knows about the area:** He's been watching the Quiet Mile signal for fifteen years. He knows the Archivist signal — he calls it *"the grandmother signal"* because an old woman who used to come through his waystation years ago was the one who first told him it responded to queries. She stopped coming through six years ago. He knows her name.
 
 If the party asks, he tells them: **Mireille Voss**. Watson district. She was 101 when she stopped coming through. He doesn't know she died at 107.
 

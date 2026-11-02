@@ -14,59 +14,52 @@ Every citizen using Arasaka's neural interface products
 donates a microscopic soul-integrity fragment per transaction.
 Individually meaningless. At continental scale: godlike.
 
-## The Problem He Hasn't Solved Yet
-Soulkiller works in theory. In practice, extracted engrams
-degrade. Soul-integrity fractures on capture. Every test
-subject to date has produced a hollow copy — a recording,
-not a soul. The network receives data but not the real thing.
+## 2023 — The One That Held
+During the 2023 raid on Arasaka Tower, Smasher killed
+Silverhand and the Director ran Soulkiller on him as he died.
+It held. The first extraction that produced a real soul-fragment
+rather than residue. That engram is the blueprint for everything since.
 
-The Director has been working on this for twenty years.
-The failure condition: he has nothing clean to calibrate against.
+It also got out. It is now on the Relic chip in V's head.
+
+## 2023–2077 — The Problem He Hasn't Solved
+Fifty-four years of trying to reproduce that result at scale.
+Extracted engrams degrade. Soul-integrity fractures on capture.
+Most test subjects produce a hollow copy — a recording, not a soul.
+The newest ones (Gig C's chip subject) keep the body and lose the
+soul, and come out strong but uncontrollable.
+
+The failure condition: nothing clean to calibrate against.
 Everyone in Night City has been touched by ambient corruption.
-There is nothing pure enough to use as a baseline.
 
-## Present Day — Still Experimental
-
+## Present Day — 2077
 The party waking up changes the Director's calculus.
 
 They are the cleanest source material he has ever
 encountered — souls sealed for a thousand years, never
 touched by the network, never ambient-corrupted.
+He has proof that clean souls exist. He does not yet have them.
 
-But they escaped. And Soulkiller still doesn't work.
-Not yet. Every extraction to date has produced degraded
-results. The Director has the party's existence as proof
-that sufficiently clean souls exist. He does not yet
-have them.
+## The Tower — Full Deployment
+The deployment is coming whether or not he catches the party.
+The infrastructure is in place; the drain has run for decades.
+What the party decides is **what kind of harvest it is**:
 
-## The Raid — When It Becomes Real
+- **Without a clean calibration source:** mass death. The city empties.
+- **With one:** mass enslavement. The harvest holds, and the city
+  becomes a body of soul-drained, obedient, very hard to kill people.
 
-Soulkiller's first working extraction does not happen
-in a lab. It happens during the assault on Arasaka tower.
-
-Silverhand leads the raid. He is captured.
-The Director runs the extraction. It holds.
-
-His chip is the first Soulkiller extraction that produces
-something real rather than residue — a genuine soul-fragment,
-not a hollow copy. The party may be there when it happens.
-
-This is the transition. The Director's twenty-year experiment
-becomes a working weapon in the same moment the party is
-closest to stopping him.
+See Misty's hidden card (Act 2, Scene 2) and `timeline.md`.
 
 ## Secure Your Soul (Public)
 Arasaka's premium service. Full consciousness backup.
-"Live forever." The marketing exists. The infrastructure
-to actually do it at scale does not yet. Silverhand's chip
-is what changes that. His extraction is the blueprint.
+"Live forever." The marketing is real. The backend is the harvest.
 
 ## Soulkiller (Reality)
 The extraction engine beneath Secure Your Soul.
-Twenty years in development. Finally working, as of now.
 Can be weaponised — targeted soul destruction, leaving
 a body alive but hollow. The Director has used cruder
-versions of this for years. The refined version is new.
+versions of this for decades.
 
 ## The Corruption
 Visible to magic users as purple-black iridescence.
@@ -86,8 +79,6 @@ They can perceive the corruption. They can disrupt it.
 They are the calibration source the Director has been
 looking for. And they escaped before he could use them.
 
-If he captures them and runs the extraction, Soulkiller
-goes from proof-of-concept to continental deployment.
-If they stop him, it stays a prototype.
-
-This is the window.
+If he captures them, the Tower makes slaves.
+If he doesn't, it makes corpses.
+The only way out the Archivist can see runs forward in time.

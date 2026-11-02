@@ -12,8 +12,8 @@
 | **Specialty** | Dunamancy — the magic of time, gravity, and potential |
 | **Name** | Lost. Has been lost for centuries. Does not remember it. |
 | **Current form** | Distributed consciousness embedded in pre-corporate net infrastructure |
-| **Node locations** | Node 1: Watson maintenance tunnels (active). Node 2: below the Afterlife club (dormant). Node 3: TBD (dormant). |
-| **Access route** | Via the Artist (high trust) → maintenance tunnels → hardline port |
+| **Node locations** | Node 1: Watson maintenance tunnels (active). Node 2: below the Afterlife club (dormant). Node 3: under a Militech monitoring station, east Watson (dormant). |
+| **Access route** | The Artist (high trust) → Judy at Moxie's → Kaz's hatch code → tunnels → hardline port (adaptor on Kaz's rig) |
 | **Trust state** | Unknown. Has not been contacted directly. |
 
 > *⚠️ GM SECRET — DO NOT SHARE WITH PLAYERS YET:*
@@ -84,10 +84,10 @@ the party can extract from him, and in what state.
 | The Director is a lich from Wildemount | **KNOWS** | He knew him as a practitioner. Watched the transformation. |
 | The Director is running Arasaka | **KNOWS** | Has been watching the corporate structure for decades. |
 | The Director has been corrupting souls for centuries | **KNOWS** | Witnessed early methods. Can describe Wildemount-era soul-drain. |
-| Something called Soulkiller is in development | **PARTIAL** | He has seen data fragments, transmission patterns. Knows it exists. Doesn't know it just became viable. |
-| Silverhand will be the first working extraction | **UNKNOWN** | He doesn't know the raid is coming, or what the Director has planned for Silverhand. |
-| The Director's final endgame threshold | **UNKNOWN** | He suspects something. He won't say what. Not yet. |
-| Whether Soulkiller can be reversed | **UNCERTAIN** | His theory: yes, but only while the network is still experimental. Once it scales, the window closes. He doesn't know how close that is. |
+| Soulkiller exists | **KNOWS** | He tracked the 2023 extraction ("the man whose extraction—"). He knows it held once. |
+| Where Silverhand's engram is now | **UNKNOWN** | He lost the chip's trail. He does not know about V. |
+| The Director's final endgame threshold | **SUSPECTS** | He won't say what until full restoration. It is the Tower. |
+| Whether the Tower can be stopped | **BELIEVES NOT** | Not from inside the present. This is why he proposes temporal displacement. |
 
 ### Magic and the Party
 
@@ -161,9 +161,6 @@ the state of his processes instead.
 
 ## Campaign Role
 
-**When:** Mid-campaign quest. The party locates the signal,
-physically reaches the hardware, and establishes contact.
-
 **What they need from him:**
 1. Context on the Director — what he was, what he did in Wildemount
 2. The mechanics of soul-drain and how to disrupt it
@@ -175,22 +172,20 @@ physically reaches the hardware, and establishes contact.
 2. To know if anyone else survived from Wildemount.
 3. Someone to finally ask the right questions.
 
-**The complication:** He is distributed. Part of him is in Badlands
-infrastructure. Parts of him are in the net. He cannot be extracted
+**The complication:** He is distributed across three nodes. He cannot be extracted
 cleanly — any attempt to move him without understanding his architecture
-will fragment him further. The party will have to work with him where
-he is, and may face choices about whether to attempt a restoration.
+will fragment him further. The party has to work with him where he is.
 
 ---
 
-## Campaign Role — Revised (Act 2)
+## Act 2 Structure
 
-**Entry point:** The Artist leads the party to the Watson maintenance tunnel hatch (high trust required). The hacker who previously attempted contact died in the tunnels.
+**Entry point:** The Artist (high trust) points the party to Judy, who has the hatch code from Kaz — the netrunner who found Node 1 and died in the tunnels.
 
 **Three-node structure:**
 - **Node 1** (Watson tunnels, Scene 3): First contact. Vampire spawn guarding the approach. Archivist is fragmented — gives core lore, asks for help with the other two nodes.
 - **Node 2** (below the Afterlife, side quest): Requires getting into the club and below it. Rogue is the key. Archivist becomes more coherent — delivers Soulkiller detail and drops hints about "the threshold."
-- **Node 3** (TBD): Location to be determined based on campaign direction.
+- **Node 3** (Militech monitoring station, side quest): Deal with Militech or break in. Connecting it triggers full restoration.
 
 **Full restoration:** When all three nodes connect, the Archivist's coherence returns. He will remember who the party is. This is the payoff — the recognition scene, the revelation of his true identity as their Wildemount ally, and access to his deepest knowledge about the Director's endgame.
 
@@ -213,8 +208,8 @@ The displacement itself: he can do it, he believes, with all three nodes active 
 ## Notes / Revelations Timeline
 *(Track when the party learns each layer)*
 
-- [ ] Artist leads party to Judy at Moxie's (Act 2, Scene 1 — high trust)
-- [ ] Judy gives tunnel hatch location (Act 2, Scene 1C)
+- [ ] Artist gives Judy's name (Act 2, Scene 1 — high trust)
+- [ ] Judy gives Kaz's hatch location and code (Act 2, Scene 1C)
 - [ ] Vampire spawn encountered and cleared (Act 2, Scene 3)
 - [ ] Node 1 contact established — he asks what year it is (Act 2, Scene 3)
 - [ ] He knew the Director before — in Wildemount (Act 2, Scene 3)
@@ -222,6 +217,7 @@ The displacement itself: he can do it, he believes, with all three nodes active 
 - [ ] "The threshold" mentioned — he stops short of explaining (Act 2 side quest)
 - [ ] Node 3 connected — Militech facility (Act 2 side quest)
 - [ ] Full restoration — he recognises the party; reveals he is their Wildemount ally *(GM secret until this moment)*
+- [ ] He reveals the threshold — the Tower (full restoration)
+- [ ] He says his name (full restoration — or the party already has it from Ilvara at Club Blood)
 - [ ] His dunamancy knowledge is the key to disrupting Soulkiller architecture (Act 2/3)
-- [ ] He reveals the threshold — what the Soulkiller deployment actually means (Act 3, pre-raid)
 - [ ] He proposes temporal displacement — the far future option (Act 3/4)
